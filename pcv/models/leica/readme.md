@@ -21,7 +21,6 @@ Powered by Shell Script under Linux
 ```
 ls | grep pcv_LEIAX | awk '{printf("![%s](./%s)\n", substr($1,5,24), $1)}'
 ```
-.
 ```
 ls | grep pcv_LEIATX | awk '{printf("![%s](./%s)\n", substr($1,5,24), $1)}'
 ```
