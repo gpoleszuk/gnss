@@ -1,5 +1,7 @@
 Based on the ATX file igs20_2247.atx
 
+Raw values, no interpolation applied
+
 ![AOAD+M_B________NONE_G01](./pcv_AOAD+M_B________NONE_G01.png)
 ![AOAD+M_B________NONE_G02](./pcv_AOAD+M_B________NONE_G02.png)
 ![AOAD+M_TA_NGS___NONE_G01](./pcv_AOAD+M_TA_NGS___NONE_G01.png)
