@@ -1,6 +1,6 @@
 Some Leica Geosystems models given in the ATX file igs20_2247.atx
 
-
+Raw values, no interpolation applied
 
 ![LEIATX1230+GNSS_NONE_G01](./pcv_LEIATX1230+GNSS_NONE_G01.png)
 ![LEIATX1230+GNSS_NONE_G02](./pcv_LEIATX1230+GNSS_NONE_G02.png)
