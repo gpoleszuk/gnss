@@ -1,4 +1,6 @@
 
+![gim_code_2023082_from_00_to_24Z](./gim_code_202308200_24Z.gif)
+
 ```
 #... ....1.... ....2.... ....3.... ....4.... ....5.... ....6.... ....7..
 reset; unset key; unset surf; set grid
