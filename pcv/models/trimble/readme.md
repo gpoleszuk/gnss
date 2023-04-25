@@ -1,5 +1,7 @@
 Based on the ATX file igs20_2247.atx
 
+Raw values, no interpolation applied
+
 ![TRM55971.00_____NONE_C01](./pcv_TRM55971.00_____NONE_C01.png)
 ![TRM55971.00_____NONE_C02](./pcv_TRM55971.00_____NONE_C02.png)
 ![TRM55971.00_____NONE_C06](./pcv_TRM55971.00_____NONE_C06.png)
