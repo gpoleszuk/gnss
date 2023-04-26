@@ -1,14 +1,14 @@
-###GIM - Global Ionospheric Model from CODE
+### GIM - Global Ionospheric Model from CODE
 
 ![gim_code_2023082_from_00_to_24Z](./gim_code_202308200_24Z.gif)
 
-###KLOBUCHAR
+### KLOBUCHAR
 
-![klo_code_2023082_from_00_to_24Z](./gim_code_202308200_24Z.gif)
+![klo_code_2023082_from_00_to_24Z](./klo_code_202308200_24Z.gif)
 
-###NEQUICK
+### NEQUICK
 
-![nqk_code_2023082_from_00_to_24Z](./gim_code_202308200_24Z.gif)
+![nqk_code_2023082_from_00_to_24Z](./nqk_code_202308200_24Z.gif)
 
 ```
 #... ....1.... ....2.... ....3.... ....4.... ....5.... ....6.... ....7..
