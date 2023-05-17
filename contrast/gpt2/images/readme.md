@@ -1,5 +1,5 @@
 Here some images are placed - For all images, the color bar is autoscaled
-
+```
 c%
 c% This subroutine determines pressure, temperature, temperature lapse rate, 
 c% mean temperature of the water vapor, water vapor pressure, hydrostatic 
@@ -19,6 +19,9 @@ c% aw:   wet mapping function coefficient (VMF1) (vector of length nstat)
 c% la:   water vapor decrease factor (vector of length nstat)
 c% undu: geoid undulation in m (vector of length nstat)
 Source: https://vmf.geo.tuwien.ac.at/codes/gpt2_1w.f
+```
+
+The plots below refers to the some parameters provided by using harmonics expressions
 
 ![INPUT_FILENAME_pa0.png](INPUT_FILENAME_pa0.png)
 ![INPUT_FILENAME_pA1.png](INPUT_FILENAME_pA1.png)
