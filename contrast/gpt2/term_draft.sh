@@ -14,6 +14,11 @@ fname=gpt2_1w_mine.grd
 head -1 ${gridfile} > ${fname}
 grep -v "^% " ${gridfile} | awk 'BEGIN{linha=0}{linha++; n=split($0, a," "); if (n != 44) printf("%6.1f%7.1f%7.0f%6.0f%5.0f%5.0f%5.0f%6.1f%6.1f%5.1f%5.1f%5.1f%6.2f%6.2f%6.2f%6.2f%6.2f%6.1f%6.1f%5.1f%5.1f%5.1f%8.2f%9.2f%7.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%9.1f%6.1f%5.1f%5.1f%5.1f%4s\r\n", a[1], a[2], a[3], a[4], a[5], a[6], a[7], a[8], a[9], a[10], a[11], a[12], a[13], a[14], a[15], a[16], a[17], a[18], a[19], a[20], a[21], a[22], a[23], a[24], a[25], a[26], a[27], a[28], a[29], a[30], a[31], a[32], a[33], a[34], a[35], a[36], a[37], a[38], a[39], a[40], a[41], a[42], a[43], a[44], "    ")}' >> ${fname}
 
+#Source: http://www.gnuplotting.org/data/world_110m.txt
+mapfile="world_110m.txt"
+if [ -e {mapfile} ]; then echo "Mapfile ${mapfile} found"; else wget --continue --quiet --no-check-certificate http://www.gnuplotting.org/data/world_110m.txt; fi
+if [ -e {mapfile} ]; then echo "OK"; else echo "Mapfile ${mapfile} not found. Aborted!"; exit 1; fi
+
 #echo $(grep "List of" -A 42 term_A1.sh | tail -42 | cut -d' ' -f1)
 terms="pa0 pA1 pB1 pA2 pB2 Ta0 TA1 TB1 TA2 TB2 Qa0 QA1 QB1 QA2 QB2 dta0 dtA1 dtB1 dtA2 dtB2 undu Hs ha0 hA1 hB1 hA2 hB2 wa0 wA1 wB1 wA2 wB2 la0 lA1 lB1 lA2 lB2 tma0 tmA1 tmB1 tmA2 tmB2"
 #terms="TA2 TB2 Qa0 QA1 QB1 QA2 QB2 dta0 dtA1 dtB1 dtA2 dtB2 undu Hs ha0 hA1 hB1 hA2 hB2 wa0 wA1 wB1 wA2 wB2 la0 lA1 lB1 lA2 lB2 tma0 tmA1 tmB1 tmA2 tmB2"
