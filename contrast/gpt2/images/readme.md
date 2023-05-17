@@ -24,7 +24,7 @@ c% undu: geoid undulation in m (vector of length nstat)
 Source: https://vmf.geo.tuwien.ac.at/codes/gpt2_1w.f
 ```
 
-The plots below refers to the some parameters provided by using harmonics expressions
+The plots below refers to the some parameters provided by using harmonic models
 
 ![INPUT_FILENAME_pa0.png](INPUT_FILENAME_pa0.png)
 ![INPUT_FILENAME_pA1.png](INPUT_FILENAME_pA1.png)
