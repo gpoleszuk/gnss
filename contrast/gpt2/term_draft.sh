@@ -51,7 +51,7 @@ for term in ${terms}; do
     echo "${gnuplotScriptB64}" | base64 -d -w 99999 | gzip -d > template_script.gnu
   fi
   sed "s/_GPT2TERM_/${term}/g" template_script.gnu > grid_template_${term}.gnu
-  cat grid_template_${term}.gnu; sleep 1
+  sleep 1 
   gnuplot grid_template_${term}.gnu
 done
 exit 0;
