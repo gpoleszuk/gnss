@@ -7,7 +7,7 @@ gridfileserver="https://vmf.geo.tuwien.ac.at/codes"
 if [ -e ${gridfile} ]; then echo "${gridfile} found";
 else
   wget --continue --quiet --no-check-certificate ${gridfileserver}/${gridfile};
-  if [ -e ${gridfile} ]; then "OK"; else echo "Grid file not found. Aborted!"; exit 1; fi
+  if [ -e ${gridfile} ]; then echo "It seems OK"; else echo "Grid file not found. Aborted!"; exit 1; fi
 fi
 
 fname=gpt2_1w_mine.grd
