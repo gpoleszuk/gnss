@@ -1,14 +1,16 @@
 #!/bin/bash
 gnuplotScriptB64="H4sICNG5ZGQAA3RlbXBsYXRlX3NjcmlwdC5nbnUAVZPbbptAEIbveYoRroRp7e0uBHyqVFWq20ZKoqhyb5pYFoaFoHDSssh2n76zB5MWCfi/f5jZ0zAhhADehJGrCkYVjupmVNGo4lEtCHEE77ncwNDgC1755Sr7QeQbUKoQZeYoIbmooWsKaNpUtB3w5iVpUp6BFEnTd4ngDeaVfzhEy3gWMgp5i467K2vez1hAqKvrnGWZ9hBTU/6iKbRUmyCzdLHkXCcCuVA17Wc2Xp2AEQqZhBAqCRSqFERxBO9YJemrp5OrOhFF2UBM4sgUF9ahoyOtw8jSOkfrBOiYueNSC/40Z+swpoTu7Rqsu1yQaK0e+40zUYH0aCIRxY/XjEYqx2xmKSsO3vfHXfB8YCc4KLXb/rw/eKZmipM/8gq83z++miWcrXHXNkUph4zDUyGSod/bjMs1nsj/wzq7SyouJYeM52WDhzal4E4oXivqzoAZyPMcIdCwohpCBehzjnCDoPyFyokQlE8VxBoWVMMCQfkalgiLXIOvZ9IOshskeLcPj792h2+3d9uHL/fbw9sOEGwyz+mqFpunTqQoz/8EXRj6EptwOn3H/PfMX0/nKAOUhM6XKxL5PsAardD/iJYPpgKcSvkCZZ0UHPtX7/7s2QF1uadWVNmBMVoTeZZvA6gRPuGJ+Z+n+rQ/KAMHtM/AN0WzVmIP4qb28oJnyrRO26oVMGeO+Z3Mmp2/MeT7mrcDAAA="
-gridfileserver="https://vmf.geo.tuwien.ac.at/codes/gpt2_5w.grd"
+
 gridfile=gpt2_1w.grd
-fname=gpt2_1w_mine.grd
+gridfileserver="https://vmf.geo.tuwien.ac.at/codes"
+
 if [ -e ${gridfile} ]; then echo "${gridfile} found";
 else
-  wget --continue --quiet --no-check-certificate ${gridfileserver};
+  wget --continue --quiet --no-check-certificate ${gridfileserver}/${gridfile};
   if [ -e ${gridfile} ]; then "OK"; else echo "Grid file not found. Aborted!"; exit 1; fi
 fi
 
+fname=gpt2_1w_mine.grd
 head -1 ${gridfile} > ${fname}
 grep -v "^% " ${gridfile} | awk 'BEGIN{linha=0}{linha++; n=split($0, a," "); if (n != 44) printf("%6.1f%7.1f%7.0f%6.0f%5.0f%5.0f%5.0f%6.1f%6.1f%5.1f%5.1f%5.1f%6.2f%6.2f%6.2f%6.2f%6.2f%6.1f%6.1f%5.1f%5.1f%5.1f%8.2f%9.2f%7.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%9.1f%6.1f%5.1f%5.1f%5.1f%4s\r\n", a[1], a[2], a[3], a[4], a[5], a[6], a[7], a[8], a[9], a[10], a[11], a[12], a[13], a[14], a[15], a[16], a[17], a[18], a[19], a[20], a[21], a[22], a[23], a[24], a[25], a[26], a[27], a[28], a[29], a[30], a[31], a[32], a[33], a[34], a[35], a[36], a[37], a[38], a[39], a[40], a[41], a[42], a[43], a[44], "    ")}' >> ${fname}
 
