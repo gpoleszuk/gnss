@@ -3,7 +3,7 @@ gnuplotScriptB64="H4sICNG5ZGQAA3RlbXBsYXRlX3NjcmlwdC5nbnUAVZPbbptAEIbveYoRroRp7e
 
 gridfile=gpt2_1w.grd
 gridfileserver="https://vmf.geo.tuwien.ac.at/codes"
-
+echo "Checking if grid file exists... "
 if [ -e ${gridfile} ]; then echo "${gridfile} found";
 else
   wget --continue --quiet --no-check-certificate ${gridfileserver}/${gridfile};
@@ -16,8 +16,9 @@ grep -v "^% " ${gridfile} | awk 'BEGIN{linha=0}{linha++; n=split($0, a," "); if 
 
 #Source: http://www.gnuplotting.org/data/world_110m.txt
 mapfile="world_110m.txt"
-if [ -e {mapfile} ]; then echo "Mapfile ${mapfile} found"; else wget --continue --quiet --no-check-certificate http://www.gnuplotting.org/data/world_110m.txt; fi
-if [ -e {mapfile} ]; then echo "OK"; else echo "Mapfile ${mapfile} not found. Aborted!"; exit 1; fi
+echo "Checking if mapfile exists... "
+if [ -e ${mapfile} ]; then echo "Mapfile ${mapfile} found"; else wget --continue --quiet --no-check-certificate http://www.gnuplotting.org/data/world_110m.txt; fi
+if [ -e ${mapfile} ]; then echo "OK"; else echo "Mapfile ${mapfile} not found. Aborted!"; exit 1; fi
 
 #echo $(grep "List of" -A 42 term_A1.sh | tail -42 | cut -d' ' -f1)
 terms="pa0 pA1 pB1 pA2 pB2 Ta0 TA1 TB1 TA2 TB2 Qa0 QA1 QB1 QA2 QB2 dta0 dtA1 dtB1 dtA2 dtB2 undu Hs ha0 hA1 hB1 hA2 hB2 wa0 wA1 wB1 wA2 wB2 la0 lA1 lB1 lA2 lB2 tma0 tmA1 tmB1 tmA2 tmB2"
