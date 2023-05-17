@@ -1,6 +1,6 @@
 Here some images are stored
 
-For all images, the color bar is autoscaled and the legend is wrong (ZHD)
+For all images, the color bar is autoscaled and the legend is wrong (XYZ)
 
 ```
 c%
