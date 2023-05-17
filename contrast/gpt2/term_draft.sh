@@ -1,7 +1,13 @@
 #!/bin/bash
-gnuplotScriptB64="IyAgODkuNSAgICAwLjUgMTAxNDcyICAgMTE0CiMxMjM0NTY3ODkgMTIzNDU2Nzg5IDEyMzQ1Njc4OSAKI2ZuYW1lPWdwdDJfMXcuZ3JkOyBlY2hvIC1uZSAiIiA+ICR7Zm5hbWV9LkdSSUQuWkhEOyBmb3IgbGF0IGluICQoc2VxIDg5NSAtMTAgLTg5NSk7IGRvIGxhdD0iJChlY2hvICR7bGF0fSB8IGF3ayAne3ByaW50ZigiJTYuMWYiLCQxLzEwLjApfScpIjsgZWNobyAtbmUgIlske2xhdH1dIjsgZWNobyAkKGdyZXAgIl4ke2xhdH0iICR7Zm5hbWV9IHwgY3V0IC1jMjEtMjYpID4+ICR7Zm5hbWV9LkExOyBkb25lCgoKIy4uLiAuLi4uMS4uLi4gLi4uLjIuLi4uIC4uLi4zLi4uLiAuLi4uNC4uLi4gLi4uLjUuLi4uIC4uLi42Li4uLiAuLi4uNy4uCnJlc2V0OyB1bnNldCBrZXk7IHVuc2V0IHN1cmY7IHNldCBncmlkCnNldCB0ZXJtIHBuZyBub2Nyb3AgZW5oYW5jZWQgdHJhbnNwYXJlbnQgc2l6ZSA1ODYsMzEwIGZvbnQgIlRpbWVzLDEyLjAiCnNldCB4dGljcyA2MDsgc2V0IHl0aWNzIDMwOyBzZXQgbXh0aWNzIDE7IHNldCBteXRpY3MgMTsKc2V0IGdyaWQgZnJvbnQgbXh0aWNzIG15dGljcyBsdyAxLjAgZHQgMyBsdCAwIGxjIHJnYiAnYmxhY2snCnNldCBsbWFyZ2luIDYuNjU7IHNldCBybWFyZ2luIDAuNjU7IHNldCB0bWFyZ2luIDEuODU7IHNldCBibWFyZ2luIDIuODUKc2V0IHhyYW5nZVstMTozNjAuMF07IHNldCB5cmFuZ2VbLTg3LjU6ODcuNV07CiNzZXQgY2JyYW5nZVs1MDAuMDoxMDUwLjBdCnNldCB0aXRsZSAnR1BUMlxfMXcgX0dQVDJURVJNXyc7IHNldCBjYmxhYmVsICdaSEQnCnNldCB4bGFiZWwgJ0xvbmdpdHVkZSBbZ3JhdXNdJzsgc2V0IHlsYWJlbCAnTGF0aXR1ZGUgW2dyYXVzXScKc2V0IHBhbGV0dGUgZGVmaW5lZCAoMCAiIzAwMDA5MCIsIDEgIiMwMDBmZmYiLCAyICIjMDA5MGZmIiwgMyAiIzBmZmZlZSIsIDQgIiM5MGZmNzAiLCA1ICIjZmZlZTAwIiwgNiAiI2ZmNzAwMCIsIDcgIiNlZTAwMDAiLCA4ICIjN2YwMDAwIikKc2V0IG91dHB1dCAnSU5QVVRfRklMRU5BTUVfX0dQVDJURVJNXy5wbmcnCnBsb3QgIm1hdHJpeF9fR1BUMlRFUk1fIiB1c2luZyAoKCQxKSoxKTooLSgoJDIpKjEuMC04OS41KSkgIDooKCQzKS8xLjApIG1hdHJpeCB3aXRoIGltYWdlIG5vdGl0bGUsXAogICAgICJ3b3JsZF8xMTBtLnR4dCIgdXNpbmcgKCgoJDEpPDAuMCk/KDM2MC4wKygkMSkpOigkMSkpOigkMikgd2l0aCBkb3RzIGxpbmVzdHlsZSAxIGxpbmVjb2xvciAtMQp1bnNldCBvdXRwdXQK"
+gnuplotScriptB64="H4sICNG5ZGQAA3RlbXBsYXRlX3NjcmlwdC5nbnUAVZPbbptAEIbveYoRroRp7e0uBHyqVFWq20ZKoqhyb5pYFoaFoHDSssh2n76zB5MWCfi/f5jZ0zAhhADehJGrCkYVjupmVNGo4lEtCHEE77ncwNDgC1755Sr7QeQbUKoQZeYoIbmooWsKaNpUtB3w5iVpUp6BFEnTd4ngDeaVfzhEy3gWMgp5i467K2vez1hAqKvrnGWZ9hBTU/6iKbRUmyCzdLHkXCcCuVA17Wc2Xp2AEQqZhBAqCRSqFERxBO9YJemrp5OrOhFF2UBM4sgUF9ahoyOtw8jSOkfrBOiYueNSC/40Z+swpoTu7Rqsu1yQaK0e+40zUYH0aCIRxY/XjEYqx2xmKSsO3vfHXfB8YCc4KLXb/rw/eKZmipM/8gq83z++miWcrXHXNkUph4zDUyGSod/bjMs1nsj/wzq7SyouJYeM52WDhzal4E4oXivqzoAZyPMcIdCwohpCBehzjnCDoPyFyokQlE8VxBoWVMMCQfkalgiLXIOvZ9IOshskeLcPj792h2+3d9uHL/fbw9sOEGwyz+mqFpunTqQoz/8EXRj6EptwOn3H/PfMX0/nKAOUhM6XKxL5PsAardD/iJYPpgKcSvkCZZ0UHPtX7/7s2QF1uadWVNmBMVoTeZZvA6gRPuGJ+Z+n+rQ/KAMHtM/AN0WzVmIP4qb28oJnyrRO26oVMGeO+Z3Mmp2/MeT7mrcDAAA="
+gridfileserver="https://vmf.geo.tuwien.ac.at/codes/gpt2_5w.grd"
 gridfile=gpt2_1w.grd
 fname=gpt2_1w_mine.grd
+if [ -e ${gridfile} ]; then echo "${gridfile} found";
+else
+  wget --continue --quiet --no-check-certificate ${gridfileserver};
+  if [ -e ${gridfile} ]; then "OK"; else echo "Grid file not found. Aborted!"; exit 1; fi
+fi
 
 head -1 ${gridfile} > ${fname}
 grep -v "^% " ${gridfile} | awk 'BEGIN{linha=0}{linha++; n=split($0, a," "); if (n != 44) printf("%6.1f%7.1f%7.0f%6.0f%5.0f%5.0f%5.0f%6.1f%6.1f%5.1f%5.1f%5.1f%6.2f%6.2f%6.2f%6.2f%6.2f%6.1f%6.1f%5.1f%5.1f%5.1f%8.2f%9.2f%7.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%8.4f%9.1f%6.1f%5.1f%5.1f%5.1f%4s\r\n", a[1], a[2], a[3], a[4], a[5], a[6], a[7], a[8], a[9], a[10], a[11], a[12], a[13], a[14], a[15], a[16], a[17], a[18], a[19], a[20], a[21], a[22], a[23], a[24], a[25], a[26], a[27], a[28], a[29], a[30], a[31], a[32], a[33], a[34], a[35], a[36], a[37], a[38], a[39], a[40], a[41], a[42], a[43], a[44], "    ")}' >> ${fname}
@@ -33,7 +39,7 @@ for term in ${terms}; do
   if [ -e template_script.gnu ]; then
     echo "Gnuplot script template ok"
   else
-    echo "${gnuplotScriptB64}" |  base64 -d -w 99999 > template_script.gnu
+    echo "${gnuplotScriptB64}" | base64 -d -w 99999 | gzip -d > template_script.gnu
   fi
   sed "s/_GPT2TERM_/${term}/g" template_script.gnu > grid_template_${term}.gnu
   cat grid_template_${term}.gnu; sleep 1
