@@ -1,4 +1,7 @@
-Here some images are placed - For all images, the color bar is autoscaled
+Here some images are stored
+
+For all images, the color bar is autoscaled and the legend is wrong (ZHD)
+
 ```
 c%
 c% This subroutine determines pressure, temperature, temperature lapse rate, 
