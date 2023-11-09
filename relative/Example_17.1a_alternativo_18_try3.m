@@ -132,37 +132,25 @@ printCorrelations (d2B, Kll_2B, '2B')
 printf('\n------\n');
 printf('\n MODELO MATEMATICO FUNCIONAL (PARA DEFINIR Kll, lb, l e A) \n');
 printf('\n------\n');
-
-printf('dX_1A = XA - X1\n');
-printf('dY_1A = YA - Y1\n');
-printf('dZ_1A = ZA - Z1\n');
-printf('dX_1B = XB - X1\n');
-printf('dY_1B = YB - Y1\n');
-printf('dZ_1B = ZB - Z1\n');
-printf('dX_12 = X2 - X1\n');
-printf('dY_12 = Y2 - Y1\n');
-printf('dZ_12 = Z2 - Z1\n');
-printf('dX_21 = X1 - X2\n');
-printf('dY_21 = Y1 - Y2\n');
-printf('dZ_21 = Z1 - Z2\n');
-printf('dX_2A = XA - X2\n');
-printf('dY_2A = YA - Y2\n');
-printf('dZ_2A = ZA - Z2\n');
-printf('dX_2B = XB - X2\n');
-printf('dY_2B = YB - Y2\n');
-printf('dZ_2B = ZB - Z2\n');
-
-printf('\n------\n');
-printf('\n (CO)VARIANCIAS EXPANDIDAS (k = %.4f)\n', k);
-printf('\n------\n');
-
-printCorrelations (d1A, k*Kll_1A, '1A')
-printCorrelations (d1B, k*Kll_1B, '1B')
-printCorrelations (d12, k*Kll_12, '12')
-
-printCorrelations (d21, k*Kll_21, '21')
-printCorrelations (d2A, k*Kll_2A, '2A')
-printCorrelations (d2B, k*Kll_2B, '2B')
+                              %   X1  Y1  Z1  X2  Y2  Z2
+printf('dX_1A = XA - X1\n');  %   -1   0   0   0   0   0
+printf('dY_1A = YA - Y1\n');  %    0  -1   0   0   0   0
+printf('dZ_1A = ZA - Z1\n');  %    0   0  -1   0   0   0
+printf('dX_1B = XB - X1\n');  %   -1   0   0   0   0   0
+printf('dY_1B = YB - Y1\n');  %    0  -1   0   0   0   0
+printf('dZ_1B = ZB - Z1\n');  %    0   0  -1   0   0   0
+printf('dX_12 = X2 - X1\n');  %   -1   0   0   1   0   0
+printf('dY_12 = Y2 - Y1\n');  %    0  -1   0   0   1   0
+printf('dZ_12 = Z2 - Z1\n');  %    0   0  -1   0   0   1
+printf('dX_21 = X1 - X2\n');  %    1   0   0  -1   0   0
+printf('dY_21 = Y1 - Y2\n');  %    0   1   0   0  -1   0
+printf('dZ_21 = Z1 - Z2\n');  %    0   0   1   0   0  -1
+printf('dX_2A = XA - X2\n');  %    0   0   0  -1   0   0
+printf('dY_2A = YA - Y2\n');  %    0   0   0   0  -1   0
+printf('dZ_2A = ZA - Z2\n');  %    0   0   0   0   0  -1
+printf('dX_2B = XB - X2\n');  %    0   0   0  -1   0   0
+printf('dY_2B = YB - Y2\n');  %    0   0   0   0  -1   0
+printf('dZ_2B = ZB - Z2\n');  %    0   0   0   0   0  -1
 
 A = [
       -1  0  0  0  0  0
@@ -226,6 +214,17 @@ la   = lb + v;
 Kxx  = s02p * Qxx;
 Kvv  = s02p * Qvv;
 Kla  = s02p * Qla;
+
+printf('\n------\n');
+printf('\n (CO)VARIANCIAS EXPANDIDAS (k = %.4f)\n', k);
+printf('\n------\n');
+
+printCorrelations (d1A, k*Kll_1A, '1A')
+printCorrelations (d1B, k*Kll_1B, '1B')
+printCorrelations (d12, k*Kll_12, '12')
+printCorrelations (d21, k*Kll_21, '21')
+printCorrelations (d2A, k*Kll_2A, '2A')
+printCorrelations (d2B, k*Kll_2B, '2B')
 
 
 printf('\n------\n');
