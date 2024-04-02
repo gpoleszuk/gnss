@@ -12,10 +12,9 @@
 - mdb2rinex_x86_64_Linux_v5.6.29.zip (for Linux 64 bits)
 - mdb2rinex_x86_windows_v5.6.46.zip (for Windows)
 
-- [X] Check epochs integrity and completeness
+- [X] Check epochs integrity and completeness of RINEX Observation and Navigation files (gfzrnx / rtkconv)
 
-<!-- -->
-
+<!--
 ::::::::::::::
 P0010883.17O
 ::::::::::::::
@@ -99,20 +98,23 @@ G25  21158581.700   111189088.26208       450.639          49.750    21158584.34
 G26  23036793.220   121059170.83207      -533.676          45.500    23036796.840    94331840.96406      -533.675          41.500
 G29  21123640.160   111005475.12108       -29.387          51.250    21123640.340    86497772.73607       -29.388          44.500
 ```
+-->
 
-- [X] Check data processing by using RTKLib
+- [X] Perform a preliminary data processing by using RTKLib
+
+- [ ] Calculate the azimuth and elevation of each satellite for both sites
 
 - [X] From the real data set, create the vectors and matrices related to observations and covariance of error of observations
 
-- [ ] Write all error equations
-
-- [ ] Calculate the azimuth and elevation of each satellite for both sites
+- [ ] Write all error equations (see the other post)
 
 - [ ] Filter satellites in both sites according to the satellite elevation mask set
 - [ ] Select those observations that are common between sites (base and rover) excluding those that are not
 - [ ] Synchronize clock/observations (how to do it?)
 - [ ] Interpolate observation to the same reception epoch in case receivers are not set to use clock steering to GPS time
-- signals received at the same timestamp was transmitted in differente timestamp
+
+> [!NOTE]
+> Generally signals received at the same timestamp was transmitted in differente timestamp
 
 - [ ] Calculate the numerical values for single differences (SD) from two sites and each satellite (prn_x_rovr - prn_x_base)
 
