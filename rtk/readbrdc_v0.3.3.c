@@ -1,4 +1,6 @@
-readbrdc_v3.3.c
+/*
+Compile with gcc readbrdc_v0.3.3.c -o readbrdc_v0.3.3.c -lm
+*/
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
