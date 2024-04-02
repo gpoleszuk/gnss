@@ -277,7 +277,17 @@ G29  21123640.160   111005475.12108       -29.387          51.250    21123640.34
 ```
 -->
 
-- [X] Perform a preliminary data processing by using RTKLib
+- [X] Perform a preliminary data processing by using RTKLib [ PASSED ] :heavy_check_mark: [ NOERROR ] :x:  [ NOWARNING ] :heavy_exclamation_mark:
+
+<!--
+❌ :x:	❗ :heavy_exclamation_mark:	‼️ :bangbang:
+⁉️ :interrobang:	⭕ :o:	✖️ :heavy_multiplication_x:
+➕ :heavy_plus_sign:	➖ :heavy_minus_sign:	➗ :heavy_division_sign:
+💮 :white_flower:	💯 :100:	✔️ :heavy_check_mark:
+☑️ :ballot_box_with_check:	🔘 :radio_button:	🔗 :link:
+-->
+
+
 
 - [ ] Calculate satellite positions, velocities, acceleration and clock error on receiving time, azimuth, elevation, distance of each satellite for both sites for all epochs considering the approximated or the best position for each benchmark
 ```
