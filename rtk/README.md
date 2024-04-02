@@ -1,8 +1,42 @@
+<!--
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+-->
+
+
 ### Tasks
 
 - [X] Select RINEX files for the RTK data processing experiment
 - P0010883.17O (base)
 - P0050883.17O (rovr)
+- EESC0883.17N (GPS broadcast ephemeris)
+
+> [!IMPORTANT]  
+> Proof that the quality of broadcast ephemeris does not affect the solution of relative positioning.
+
+```
+./rtklib243b34/app/consapp/rnx2rtkp/gcc/rnx2rtkp -k brdc_P001_P005.conf -x 5 P0050883.17O P0010883.17O EESC0880.17N 2>/dev/null | grep ^2017
+2017/03/29 13:30:00.000   3964449.8475  -4392493.0031  -2375390.2217   1   6   0.0147   0.0216   0.0118  -0.0171   0.0153  -0.0124   0.00    6.2
+2017/03/29 13:31:00.000   3964449.8452  -4392492.9938  -2375390.2170   1   6   0.0105   0.0154   0.0084  -0.0122   0.0109  -0.0089   0.00    9.4
+
+./rtklib243b34/app/consapp/rnx2rtkp/gcc/rnx2rtkp -k prec_P001_P005.conf -x 5 P0050883.17O P0010883.17O EESC0880.17N igs19423.sp3 2>/dev/null | grep ^2017
+2017/03/29 13:30:00.000   3964449.8485  -4392493.0043  -2375390.2223   1   6   0.0147   0.0216   0.0118  -0.0171   0.0153  -0.0124   0.00    6.3
+2017/03/29 13:31:00.000   3964449.8457  -4392492.9945  -2375390.2174   1   6   0.0105   0.0154   0.0084  -0.0122   0.0109  -0.0089   0.00    9.5
+
+```
+
 
 - [X] Select TPS files for the topographic surveying
 - Horizontal direction
@@ -237,7 +271,8 @@ PG26 2017 03 29 14 00  0.00000000 307860.00000000   -3080307.740  -17194772.941 
 PG29 2017 03 29 14 00  0.00000000 307860.00000000   18258797.145   -6985220.072  -17963958.199   0.000616755313 |    2139.346332     791.289305    1870.098411 |   -0.176357229   -0.200389077    0.382644363
 ```
 > [!NOTE]
-> Source code provided [here](https://github.com/gpoleszuk/gnss/blob/main/rtk/readbrdc_v0.3.3.c)
+> 1. Source code to calculate GPS satellite positions and clock error is provided [here](https://github.com/gpoleszuk/gnss/blob/main/rtk/readbrdc_v0.3.3.c).
+> 2. The positions presented before does not consider the Earth rotation effect (Sagnac). It consists only the instantaneous position at the reception timestamp.
 
 
 
