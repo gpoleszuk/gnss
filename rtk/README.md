@@ -312,8 +312,25 @@ PG29 2017 03 29 14 00  0.00000000 307860.00000000   18258797.145   -6985220.072 
 > 2. The positions presented before does not consider the Earth rotation effect (Sagnac). It consists only the instantaneous position at the reception timestamp.
 
 - [ ] Calculate the satellite positions and clock in the transmission time instant by using the pseudoranges to estimate the average of each GPS receiver clock
-```
 
+> [!TIP]
+> The approximated value of the Earth's rotation rate is $\omega_E = 7.292\ 115\ 1467 \cdot 10^{-5}\ rad \cdot s^{-1}$
+> The decrease/increase (?) of this rate according to COD19423.ERP.Z is about 7E-7 s/day
+```
+gzip -d --stdout COD19423.ERP.Z
+VERSION 2
+CODE'S 3-DAY FINAL SOLUTION FOR DAY 088, 2017                    03-APR-17 01:16
+-------------------------------------------------------------------------------------------------------------------------------------------------
+NUTATION MODEL       : IAU2000R06               SUBDAILY POLE MODEL: IERS2010
+  MJD         X-P      Y-P   UT1UTC    LOD   S-X   S-Y  S-UT  S-LD  NR  NF  NT   X-RT   Y-RT  S-XR  S-YR C-XY C-XT C-YT   DPSI   DEPS  S-DP  S-DE
+              E-6"     E-6"    E-7S E-7S/D   E-6"  E-6" E-7S E-7S/D                 E-6"/D      E-6"/D    E-2  E-2  E-2    E-6"   E-6"  E-6"  E-6"
+57840.00     4904   372051  4779870  19890     7     7     1     4 274 166  55    436   1321     5     5   11    0    0      0      0     0     0
+57840.50     5122   372712  4769925  19965     6     6     3     8 274 166  55    436   1321     8     8    7    7   -6      0      0     0     0
+57841.00     5340   373372  4759942  20038     6     6     5     3 274 166  55     35   1651     4     4    9   -5    8      0      0     0     0
+57841.50     5357   374198  4749923  19674     5     5     6     7 274 166  55     35   1651     7     7    6   -2    4      0      0     0     0
+57842.00     5375   375024  4740087  18466     6     6     7     4 274 166  55   -552   1294     5     5    8   -3    3      0      0     0     0
+57842.50     5099   375671  4730853  17788     6     6     9    10 274 166  55   -552   1294    10    10    6   -2    2      0      0     0     0
+57843.00     4823   376318  4721959  17788     7     7    10    10 274 166  55   -552   1294    10    10    9   -3    8      0      0     0     0
 ```
 
 - [X] From the real data set, create the vectors and matrices related to observations and covariance of error of observations
