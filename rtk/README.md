@@ -41,10 +41,35 @@ Processing with broadcast ephemeris + precise ephemeris (why both?)
 
 
 - [X] Select TPS files for the topographic surveying
-- Horizontal direction
-- Vertical angle
-- Slope electronic distance
-- Atmospheric parameters
+
+P001 to P005
+- Horizontal direction: 
+- Vertical angle: 
+- Slope electronic distance: 
+- Atmospheric parameters: 
+- Topographic azimuth: 
+
+ P005 to P001
+- Horizontal direction: 
+- Vertical angle: 
+- Slope electronic distance: 
+- Atmospheric parameters: 
+- Topographic azimuth: 
+
+```
+Day 1:
+		1700002,	"4",	29-03-2017/11:02:56.0,	22.000000,	913.276256,	0.130000;
+		1700019,	"4-16",	2,	359.592270,	90.231880,	1036.850149,	1.500000,	29-03-2017/11:26:09.0,	37.083409,	100,	00000000;
+		1700020,	"4-17",	2,	179.591720,	269.364500,	1036.849248,	1.500000,	29-03-2017/11:27:11.0,	37.083409,	100,	00000001;
+
+Day 2:
+		1700031,	"4-27",	3,	56.312980,	89.370830,	1036.850744,	1.500000,	03-04-2017/17:35:48.0,	41.323228,	100,	00000000;
+		1700032,	"4-28",	3,	236.311300,	270.224360,	1036.850444,	1.500000,	03-04-2017/17:37:10.0,	41.323228,	100,	00000001;
+
+Day 2: (no atm correction applied)
+		1700034,	"4-29",	4,	56.312200,	89.372090,	1036.807000,	1.500000,	03-04-2017/17:38:33.0,	0.000000,	100,	00000000;
+		1700035,	"4-30",	4,	236.311130,	270.224070,	1036.807800,	1.500000,	03-04-2017/17:39:38.0,	0.000000,	100,	00000001;
+```
 
 <!--
 
@@ -276,7 +301,10 @@ PG29 2017 03 29 14 00  0.00000000 307860.00000000   18258797.145   -6985220.072 
 > 1. Source code to calculate GPS satellite positions and clock error is provided [here](https://github.com/gpoleszuk/gnss/blob/main/rtk/readbrdc_v0.3.3.c).
 > 2. The positions presented before does not consider the Earth rotation effect (Sagnac). It consists only the instantaneous position at the reception timestamp.
 
+- [ ] Calculate the satellite positions and clock in the transmission time instant by using the pseudoranges to estimate the average of each GPS receiver clock
+```
 
+```
 
 - [X] From the real data set, create the vectors and matrices related to observations and covariance of error of observations
 
