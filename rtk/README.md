@@ -373,12 +373,15 @@ PG29 2017 03 29 14 00  0.00000000 307860.00000000   18258797.145   -6985220.072 
 > 1. Source code to calculate GPS satellite positions and clock error is provided [here](https://github.com/gpoleszuk/gnss/blob/main/rtk/readbrdc_v0.3.3.c).
 > 2. The positions presented before does not consider the Earth rotation effect (Sagnac). It consists only the instantaneous position at the reception timestamp.
 
-- [ ] Calculate the satellite positions and clock in the transmission time instant by using the pseudoranges to estimate the average of each GPS receiver clock
+- [ ] Calculate the satellite positions and clock in the transmission time instant.
+- [ ] By using the pseudoranges to estimate the average of each GPS receiver clock, calculate the satellite positions and clock in the transmission time instant.
+- [ ] Considering the approximate position for each site, calculate the satellite positions and clock in the transmission time instant.
+- [ ] Calculate and apply the Sagnac effect for each satellite position, based on the each propagation time.
 
 > [!TIP]
 > The approximated value of the Earth's rotation rate is $\omega_E = 7.292\ 115\ 1467 \cdot 10^{-5}\ rad \cdot s^{-1}$
->
->  The decrease/increase (?) of this rate according to COD19423.ERP.Z is about 7E-7 s/day
+> Is it a iteartive process or a recursive process?
+> The decrease/increase (?) of this rate according to COD19423.ERP.Z is about 7E-7 s/day
 
 
 ```
