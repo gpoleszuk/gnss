@@ -374,6 +374,9 @@ PG29 2017 03 29 14 00  0.00000000 307860.00000000   18258797.145   -6985220.072 
 > 2. The positions presented before does not consider the Earth rotation effect (Sagnac). It consists only the instantaneous position at the reception timestamp.
 
 - [ ] Calculate the satellite positions and clock in the transmission time instant.
+```
+
+```
 - [ ] By using the pseudoranges to estimate the average of each GPS receiver clock, calculate the satellite positions and clock in the transmission time instant.
 - [ ] Considering the approximate position for each site, calculate the satellite positions and clock in the transmission time instant.
 - [ ] Calculate and apply the Sagnac effect for each satellite position, based on the each propagation time.
