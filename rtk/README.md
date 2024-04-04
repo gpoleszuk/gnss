@@ -27,7 +27,7 @@
 > [!IMPORTANT]  
 > Proof that the quality of broadcast ephemeris does not affect the solution of relative positioning.
 
-In theory
+In theory (Wells et al., 1986)
 
 $$
 \begin{equation}
@@ -44,7 +44,7 @@ where:
 
 In the practice
 
-Considering a precise ephemeris with a nominal position error equal to 1 cm and a baseline with 10 km. Consider 22000 km as approximated distance between antennas satellite-receiver. The resulting error in the baseline is about 
+Considering a precise ephemeris with a nominal position error equal to 1 cm and a baseline with 10 km. Consider 22000 km as approximated distance between antennas satellite-receiver. The resulting error in the baseline is about 1.8 mm.
 
 ```
 Processing with broadcast ephemeris
@@ -445,3 +445,8 @@ NUTATION MODEL       : IAU2000R06               SUBDAILY POLE MODEL: IERS2010
 - [ ] 
 
 - [ ] 
+
+
+### Reference
+
+Wells, Dave & Beck, N & Delikaraoglou, Demitris & Kleusberg, A & Krakiwsky, E.J. & Lachapelle, Gérard & Langley, R & Nakiboglu, M & Schwarz, K & Tranquilla, James & Vanicek, Petr. (1986). Guide to GPS Positioning. 10.13140/2.1.3771.4889. Available at <https://www.researchgate.net/publication/235652268_Guide_to_GPS_Positioning>. Accessed 04Apr2024.
