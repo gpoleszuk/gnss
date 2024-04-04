@@ -15,6 +15,7 @@
 > Negative potential consequences of an action.
 -->
 
+---
 
 ### Tasks
 
@@ -25,6 +26,25 @@
 
 > [!IMPORTANT]  
 > Proof that the quality of broadcast ephemeris does not affect the solution of relative positioning.
+
+In theory
+
+$$
+\begin{equation}
+\Delta b = \frac{b}{r} \Delta r
+\end{equation}
+$$
+
+where:
+
+- $b$ - baseline length
+- $r$ - slope distance between antennas satellite-receiver
+- $\Delta b$ - resulting error in the baseline
+- $\Delta r$ - satellite position error
+
+In the practice
+
+Considering a precise ephemeris with a nominal position error equal to 1 cm and a baseline with 10 km. Consider 22000 km as approximated distance between antennas satellite-receiver. The resulting error in the baseline is about 
 
 ```
 Processing with broadcast ephemeris
