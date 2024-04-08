@@ -32,6 +32,43 @@
 - P0050883.17O (rovr)
 - EESC0883.17N (GPS broadcast ephemeris)
 
+
+Reference coordinates updated to 2017 + 88/365
+
+$$
+\begin{equation}
+\mathbf{X_{P001}} = \begin{pmatrix}
+\ \ \ 3965001.0759 \pm 0.0036 \\
+-4392463.0651 \pm 0.0048 \\
+-2374512.5496 \pm 0.0028 \\
+\end{pmatrix}_{(m)}
+\end{equation}
+$$
+<!-- 1   6   0.0026   0.0044   0.0023  -0.0030   0.0029  -0.0021   0.00  456.6 -->
+
+$$
+\begin{equation}
+\mathbf{X_{P005}} = \begin{pmatrix}
+\ \ \ 3964449.8316 \pm 0.0036 \\
+-4392492.9754 \pm 0.0048 \\
+-2375390.2131 \pm 0.0028 \\
+\end{pmatrix}_{(m)}
+\end{equation}
+$$
+<!--   1   7   0.0036   0.0048   0.0028  -0.0038   0.0033  -0.0027   0.00   56.6 -->
+
+$$
+\begin{equation}
+\mathbf{X_{EESC}} = \begin{pmatrix}
+\ \ \ 3967006.9982 \pm 0.00?? \\
+-4390247.4550 \pm 0.00?? \\
+-2375229.7383 \pm 0.00?? \\
+\end{pmatrix}_{(m)}
+\end{equation}
+$$
+
+
+
 > [!IMPORTANT]  
 > Proof that the quality of broadcast ephemeris does not affect the solution of relative positioning.
 
