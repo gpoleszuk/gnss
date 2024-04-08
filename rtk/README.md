@@ -15,14 +15,12 @@
 > Negative potential consequences of an action.
 -->
 
-
-               When faced with a problem you don't understand,
-               first do any part of it that you DO understand
-               and then look at it again.
-                                      -- Robert Anson Heinlein
-                           (from The Moon is A Harsh Mistress)
-		Source: http://www.techhelpmanual.com/964-using_tech_help_.html
-
+                    When faced with a problem you don't understand,
+                    first do any part of it that you DO understand
+                    and then look at it again.
+                                           -- Robert Anson Heinlein
+                                (from The Moon is A Harsh Mistress)
+    Source: http://www.techhelpmanual.com/964-using_tech_help_.html
 ---
 
 ### Tasks
