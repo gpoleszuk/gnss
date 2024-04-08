@@ -495,9 +495,7 @@ NUTATION MODEL       : IAU2000R06               SUBDAILY POLE MODEL: IERS2010
 Wells, Dave & Beck, N & Delikaraoglou, Demitris & Kleusberg, A & Krakiwsky, E.J. & Lachapelle, Gérard & Langley, R & Nakiboglu, M & Schwarz, K & Tranquilla, James & Vanicek, Petr. (1986). Guide to GPS Positioning. 10.13140/2.1.3771.4889. Available at <https://www.researchgate.net/publication/235652268_Guide_to_GPS_Positioning>. Accessed 04Apr2024.
 
 
-
-
-
+---
 
 
 ### Draft tests
@@ -522,13 +520,42 @@ P005-P001
 ```
 
 
-#### Arc-chord reduction
-
 ```bash
 # Define variables to store point coordinates
 E_P001=197672.267040272; N_P001=7564507.074813491;
 E_P005=197260.949424616; N_P005=7563554.648284928;
 ```
+
+#### Plane azimuth
+
+```awk
+echo ${E_P001} ${N_P001} ${E_P005} ${N_P005} | awk '
+  function deg2dms(deg) {
+    sig=1.0; if(deg<0.0) sig=-1.0;
+    deg=sig*deg; ddd=int(deg);
+    tmp=(deg-ddd)*60.0;
+    mm=int(tmp); ss=(tmp-mm)*60.0;
+    return sig*(ddd+(mm+ss/100.0)/100.0);
+  }
+  {
+    pi=4.0*atan2(1,1); r2d=180.0/pi; r2s=3600.0*r2d;
+    E1=$1; N1=$2; E2=$3; N2=$4; dE12=E2-E1; dN12=N2-N1;
+    Az12=atan2(dE12,dN12); Az21=Az12-pi;
+    if(Az12<0.0) Az12=Az12+2.0*pi;
+    if(Az21<0.0) Az21=Az21+2.0*pi;
+    printf("%18.14f %18.8f\n", r2d*Az12, deg2dms(Az12*r2d));
+    printf("%18.14f %18.8f\n", r2d*Az21, deg2dms(Az21*r2d));
+  }'
+```
+
+```plaintext
+203.35772091648073       203.21277953
+ 23.35772091648077        23.21277953
+```
+
+
+#### Arc-chord reduction
+
 
 ```awk
 #P001-P005 and P005-P001
