@@ -554,7 +554,19 @@ echo ${E_P001} ${N_P001} ${E_P005} ${N_P005} | awk '
 ```
 
 
-#### Arc-chord reduction
+#### Arc-to-chord reduction
+
+According to "GS521 Geodetic Control Surveying: The Transverse Mercator Projection" published by
+Department of Civil and Environmental Engineering and Geodetic Science: Geodetic and Geoinformation Science Section
+and available at [TM_Notes.pdf](https://www.wollindina.com/images/HP-33S_PDF/TM_Notes.pdf) (161500 bytes)
+<!-- 0ec96eb321702cf20b63830b1e7e6b61 -->
+the arc-to-chord reduction is calculated as follow
+
+$$
+\begin{equation}
+  \delta_{12} = -(N_2 - N_1) \cdot (2E_{1}^{'} + E_{2}^{'}) \cdot \left ( 1.0 - \frac{2E_{1}^{'} + E_{2}^{'}}{27.0 \cdot R_0^2} \right) \cdot \frac{1.0}{6.0 \cdot R_0^2}
+\end{equation}
+$$
 
 
 ```awk
@@ -583,6 +595,16 @@ echo ${E_P001} ${N_P001} ${E_P005} ${N_P005} | awk '{
 Constants:   3.14159265358979  57.29577951308232 206264.80624709636322
 delta_12 =  -0.73330926034180"   0.99924674599999
 delta_21 =   0.73364116444940"   0.99924606295231
+```
+
+Combining plane azimuth and geodetic azimuth considering the meridians convergency and arc-to-chord reduction
+
+```bash
+echo "(203.35772091648073-204.4554845160+3951.274503538/3600.0)*3600.0-(-0.73330926034180)" | bc -l
+.05885452896979997200"
+
+echo "(23.35772091648073-24.4570416644+3958.348509651/3600.0)*3600.0-(0.73364116444940)" | bc -l
+.06017597717859998800"
 ```
 
 #### P001 at same level of P005
