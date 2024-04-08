@@ -583,7 +583,12 @@ $$
 $$
 
 with:
+
 $E_{.}^{'} = E_{.} - 500.000$ 
+
+$M(a,f,\varphi) = a \cdot (1 - e^2) \cdot (1 - e^2 \cdot sin^2 \varphi)^{-\frac{3}{2}}$
+
+$N(a,f,\varphi) = a \cdot (1 - e^2 \cdot sin^2 \varphi)^{-\frac{1}{2}}$
 
 
 
