@@ -1,14 +1,14 @@
 <!--
-> [!NOTE]  
+> [!NOTE]
 > Highlights information that users should take into account, even when skimming.
 
 > [!TIP]
 > Optional information to help a user be more successful.
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > Crucial information necessary for users to succeed.
 
-> [!WARNING]  
+> [!WARNING]
 > Critical content demanding immediate user attention due to potential risks.
 
 > [!CAUTION]
@@ -495,3 +495,40 @@ NUTATION MODEL       : IAU2000R06               SUBDAILY POLE MODEL: IERS2010
 ### Reference
 
 Wells, Dave & Beck, N & Delikaraoglou, Demitris & Kleusberg, A & Krakiwsky, E.J. & Lachapelle, Gérard & Langley, R & Nakiboglu, M & Schwarz, K & Tranquilla, James & Vanicek, Petr. (1986). Guide to GPS Positioning. 10.13140/2.1.3771.4889. Available at <https://www.researchgate.net/publication/235652268_Guide_to_GPS_Positioning>. Accessed 04Apr2024.
+
+
+
+
+
+
+
+### Draft tests
+
+```textplain
+EESC    3967006.9982  -4390247.4550  -2375229.7383
+P001    3965001.0759  -4392463.0651  -2374512.5496   -21.9979283146   -47.9279747666   833.8832614139   
+P005    3964449.8316  -4392492.9754  -2375390.2131   -22.0064506040   -47.9321311302   840.8250294896
+```
+
+#### P001 at same level of P005
+
+```textplain
+P005    3964449.8316  -4392492.9754  -2375390.2131   -22.0064506040   -47.9321311302   840.8250294896
+P001X   3965005.3887  -4392467.8429  -2374515.1498   -21.9979283146   -47.9279747666   840.8250294899
+
+                          e                n                u                s           az                z
+From P001X to P005     -429.232174440   -943.806575908     -0.084626708   1036.827430   204.4554845160    90.0047
+From P005  to P001X     429.257824460    943.794910159     -0.084626677   1036.827430    24.4570416644    90.0047
+Diferença                  .025650020     -0.011665749     -0.169253385      0.000000    -5.6057342400"   16.8355"
+                                                                                                         -16.8355"
+R0(media P001 e P005) = 6362730.7407 m
+In this case, the horizontal distances are practically the same
+d15 = 1036.82742648025758874332 m
+d51 = 1036.82742648049538162294 m
+
+k_atmos = 1.0
+ec = k * d / (2.0 * R0) = 16.8060"
+
+
+
+```
