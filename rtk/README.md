@@ -631,6 +631,13 @@ echo "(23.35772091648073-24.4570416644+3958.348509651/3600.0)*3600.0-(0.73364116
 .06017597717859998800"
 ```
 
+Correcting the vertical angle for the effect of atmospheric refraction and earth curvature
+
+```
+
+```
+
+
 #### P001 at same level of P005
 
 ```textplain
