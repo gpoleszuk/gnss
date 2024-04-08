@@ -562,6 +562,7 @@ and available at [TM_Notes.pdf](https://www.wollindina.com/images/HP-33S_PDF/TM_
 the arc-to-chord reduction is calculated as follow
 <!-- 0ec96eb321702cf20b63830b1e7e6b61 -->
 
+<!--
 $$
 \begin{equation}
   \delta_{12} =  -\frac{(N_2 - N_1) \cdot (2E_{1}^{'} + E_{2}^{'})}{6.0 \cdot R_0^2} \cdot \left ( 1.0 - \frac{(2E_{1}^{'} + E_{2}^{'})^2}{27.0 \cdot R_0^2} \right)
@@ -573,20 +574,17 @@ $$
   \delta_{ij} =  -\frac{(N_j - N_i) \cdot (2E_{i}^{'} + E_{j}^{'})}{6.0 \cdot R_0^2} \cdot \left ( 1.0 - \frac{(2E_{i}^{'} + E_{j}^{'})^2}{27.0 \cdot R_0^2} \right)
 \end{equation}
 $$
+-->
 
 $$
 \begin{equation}
-  \delta_{ij} =  -\frac{(N_j - N_i) \cdot (2E_{i}^{'} + E_{j}^{'})}{6.0 \cdot Mer(a,f,\varphi) \cdot Nor(a,f,\varphi) } \cdot \left ( 1.0 - \frac{(2E_{i}^{'} + E_{j}^{'})^2}{27.0 \cdot Mer(a,f,\varphi) \cdot Nor(a,f,\varphi) } \right)
+  \delta_{ij} =  -\frac{(N_j - N_i) \cdot (2E_{i}^{'} + E_{j}^{'})}{6.0 \cdot M(a,f,\varphi) \cdot N(a,f,\varphi) } \cdot \left ( 1.0 - \frac{(2E_{i}^{'} + E_{j}^{'})^2}{27.0 \cdot M(a,f,\varphi) \cdot N(a,f,\varphi) } \right)
 \end{equation}
 $$
 
-with $R_0$ calculated based on ${M}$ and ${N}$ for the latitude of the midpoint between points $i$ and $j$.
+with:
+$E_{.}^{'} = E_{.} - 500.000$ 
 
-$$
-\begin{equation}
-  \delta_{ij} =  -\frac{(N_j - N_i) \cdot (2E_{i}^{'} + E_{j}^{'})}{6.0 \cdot Mer(a,f,\varphi) \cdot Nor(a,f,\varphi) } \cdot \left ( 1.0 - \frac{(2E_{i}^{'} + E_{j}^{'})^2}{27.0 \cdot Mer(a,f,\varphi) \cdot Nor(a,f,\varphi) } \right)
-\end{equation}
-$$
 
 
 
