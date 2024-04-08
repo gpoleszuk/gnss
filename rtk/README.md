@@ -559,14 +559,35 @@ echo ${E_P001} ${N_P001} ${E_P005} ${N_P005} | awk '
 According to "GS521 Geodetic Control Surveying: The Transverse Mercator Projection" published by
 Department of Civil and Environmental Engineering and Geodetic Science: Geodetic and Geoinformation Science Section
 and available at [TM_Notes.pdf](https://www.wollindina.com/images/HP-33S_PDF/TM_Notes.pdf) (161500 bytes)
-<!-- 0ec96eb321702cf20b63830b1e7e6b61 -->
 the arc-to-chord reduction is calculated as follow
+<!-- 0ec96eb321702cf20b63830b1e7e6b61 -->
 
 $$
 \begin{equation}
-  \delta_{12} = -(N_2 - N_1) \cdot (2E_{1}^{'} + E_{2}^{'}) \cdot \left ( 1.0 - \frac{2E_{1}^{'} + E_{2}^{'}}{27.0 \cdot R_0^2} \right) \cdot \frac{1.0}{6.0 \cdot R_0^2}
+  \delta_{12} =  -\frac{(N_2 - N_1) \cdot (2E_{1}^{'} + E_{2}^{'})}{6.0 \cdot R_0^2} \cdot \left ( 1.0 - \frac{(2E_{1}^{'} + E_{2}^{'})^2}{27.0 \cdot R_0^2} \right)
 \end{equation}
 $$
+
+$$
+\begin{equation}
+  \delta_{ij} =  -\frac{(N_j - N_i) \cdot (2E_{i}^{'} + E_{j}^{'})}{6.0 \cdot R_0^2} \cdot \left ( 1.0 - \frac{(2E_{i}^{'} + E_{j}^{'})^2}{27.0 \cdot R_0^2} \right)
+\end{equation}
+$$
+
+$$
+\begin{equation}
+  \delta_{ij} =  -\frac{(N_j - N_i) \cdot (2E_{i}^{'} + E_{j}^{'})}{6.0 \cdot Mer(a,f,\varphi) \cdot Nor(a,f,\varphi) } \cdot \left ( 1.0 - \frac{(2E_{i}^{'} + E_{j}^{'})^2}{27.0 \cdot Mer(a,f,\varphi) \cdot Nor(a,f,\varphi) } \right)
+\end{equation}
+$$
+
+with $R_0$ calculated based on ${M}$ and ${N}$ for the latitude of the midpoint between points $i$ and $j$.
+
+$$
+\begin{equation}
+  \delta_{ij} =  -\frac{(N_j - N_i) \cdot (2E_{i}^{'} + E_{j}^{'})}{6.0 \cdot Mer(a,f,\varphi) \cdot Nor(a,f,\varphi) } \cdot \left ( 1.0 - \frac{(2E_{i}^{'} + E_{j}^{'})^2}{27.0 \cdot Mer(a,f,\varphi) \cdot Nor(a,f,\varphi) } \right)
+\end{equation}
+$$
+
 
 
 ```awk
