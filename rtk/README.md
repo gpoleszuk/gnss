@@ -23,6 +23,10 @@
     Source: http://www.techhelpmanual.com/964-using_tech_help_.html
 ---
 
+> [!IMPORTANT]
+> To Do: Include equation to calculate the electronic distance atmospheric error compensation.
+
+
 ### Tasks
 
 - [X] Select RINEX files for the RTK data processing experiment
