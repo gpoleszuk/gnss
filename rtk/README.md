@@ -566,7 +566,42 @@ As distâncias obtidas com o emprego de Medidores Eletrônicos de Distância (ED
 
 Equations:
 
-- Leica Geosystems: $\begin{equation}ppp(pres,temp,rh,\lambda)\end{equation} = 299.792458 \cdots$
+- Leica Geosystems:
+
+$$
+  \begin{equation}
+  ppm(p,t,h,\lambda)_{red} = 286.34 - \left ( \frac{0.29525 \cdot p}{1 + \frac{t}{273.15}} - \frac{4.126 \cdot 10^{-4} \cdot h}{1 + \frac{t}{273.15}} \cdot 10^\left ( \frac{7.5 \cdot t}{237.3 + t} + 0.7857\right)  \right )
+  \end{equation}
+$$
+
+Pressure mbar, air temperature in Celsius degrees, and relative humidity in %
+
+Carrier wavelength: 658 nm and Index n: 1.0002863
+
+Source: Leica-MS50-TS50-TM50-user-manual.pdf, pg.75, 805805-1.1.1en, 2013 [link](http://docs.onepointsurvey.com/pdf/Leica-MS50-TS50-TM50-user-manual.pdf)
+
+
+- Sokkia
+$$
+  \begin{equation}
+  ppm(pres,temp,rh,\lambda) =  \cdots
+  \end{equation}
+$$
+  
+- Topcon Positioning
+$$
+  \begin{equation}
+  ppm(pres,temp,rh,\lambda) = \cdots
+  \end{equation}
+$$
+
+- Trimble Corporation
+$$
+  \begin{equation}
+  ppm(pres,temp,rh,\lambda) =  \cdots
+  \end{equation}
+$$
+
 
 
 #### Plane azimuth
