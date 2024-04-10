@@ -581,6 +581,96 @@ Carrier wavelength: 658 nm and Index n: 1.0002863
 Source: Leica-MS50-TS50-TM50-user-manual.pdf, pg.75, 805805-1.1.1en, 2013 [link](http://docs.onepointsurvey.com/pdf/Leica-MS50-TS50-TM50-user-manual.pdf)
 
 
+```c
+/*
+********************************************************************************
+* File: ppm.c
+* Author: gpoleszuk
+* Date: October 21, 2021
+* Description: This program demonstrates the ppm function use.
+********************************************************************************
+*/
+double calculate_ppm_red(double p, double t, double h);
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+#define LAMBDA 9.80665
+
+/*
+********************************************************************************
+* Function: calculate_ppm_red
+* Description: This function calculates the atmospheric ppm for Leica MS50 serie
+* Parameters:
+*     - p: the atmospheric pressure in hPa
+*     - t: the atmospheric dry temperature in Celsius
+*     - h: the relative humidity in %
+* Returns: the atmospheric ppm factor
+********************************************************************************
+*/
+double calculate_ppm_red(double p, double t, double h) {
+    double b = 1.0 / (1.0 + t/273.15);
+    return 286.34 - ((0.29525 * p * b) \
+                  - ((4.126 * pow(10, -4) * h * b) \
+                  * pow(10, (7.5 * t / (237.3 + t) + 0.7857))));
+}
+
+/*
+********************************************************************************
+* Function: main
+* Description: This is the main function
+* Parameters: none
+* Returns: the return error code 0
+********************************************************************************
+*/
+int main() {
+    int i;
+    double p, t, h, ppm_red;
+
+    for (i = 1; i <= 10; i++) {
+        // Randomizing values for p, t, and h
+        p = (rand() / (double)RAND_MAX) * (1050.0 - 900.0) + 900.0;
+        t = (rand() / (double)RAND_MAX) * (55.0 - (-20.0)) + (-20.0);
+        h = (rand() / (double)RAND_MAX) * (100.0 - 0.0) + 0.0;
+
+        ppm_red = calculate_ppm_red(p, t, h);
+        printf("Scenario %d - p: %.2f, t: %.2f, h: %.2f, ppm_red: %.2f\n", i, p, t, h, ppm_red);
+    }
+    return 0;
+}
+
+/*
+After compile this code with gcc -Wall ppm.c -o ppm.e -lm
+gcc -Wall -Wextra -Wpedantic -O2 ppm.c -o ppm.e -lm
+
+it generated the following random scenarios
+Scenario  1 - p: 1026.03, t:  9.58, h: 78.31, ppm_red: -5.96
+Scenario  2 - p: 1019.77, t: 48.37, h: 19.76, ppm_red: 31.34
+Scenario  3 - p:  950.28, t: 37.62, h: 27.78, ppm_red: 40.38
+Scenario  4 - p:  983.10, t: 15.80, h: 62.89, ppm_red: 12.40
+Scenario  5 - p:  954.72, t: 18.51, h: 95.22, ppm_red: 23.13
+Scenario  6 - p: 1037.43, t: 27.68, h: 71.73, ppm_red:  9.22
+Scenario  7 - p:  921.24, t: 25.52, h:  1.63, ppm_red: 37.61
+Scenario  8 - p:  936.43, t: -9.71, h: 80.42, ppm_red: -0.23
+Scenario  9 - p:  923.50, t: 10.07, h: 12.98, ppm_red: 23.44
+Scenario 10 - p:  916.32, t: 54.92, h: 21.83, ppm_red: 62.26
+
+
+Scenario 1 - p: 1026.03, t:  9.58, h: 78.31, ppm_red: -5.96
+Scenario 2 - p: 1019.77, t: 48.37, h: 19.76, ppm_red: 31.34
+Scenario 3 - p:  950.28, t: 37.62, h: 27.78, ppm_red: 40.38
+Scenario 4 - p:  983.10, t: 15.80, h: 62.89, ppm_red: 12.40
+Scenario 5 - p:  954.72, t: 18.51, h: 95.22, ppm_red: 23.13
+Scenario 6 - p: 1037.43, t: 27.68, h: 71.73, ppm_red:  9.22
+Scenario 7 - p:  921.24, t: 25.52, h:  1.63, ppm_red: 37.61
+Scenario 8 - p:  936.43, t: -9.71, h: 80.42, ppm_red: -0.23
+Scenario 9 - p:  923.50, t: 10.07, h: 12.98, ppm_red: 23.44
+Scenario 10 - p: 916.32, t: 54.92, h: 21.83, ppm_red: 62.26
+
+*/
+
+
 - Sokkia
 $$
   \begin{equation}
