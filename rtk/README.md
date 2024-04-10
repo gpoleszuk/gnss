@@ -554,15 +554,19 @@ E_P005=197260.949424616; N_P005=7563554.648284928;
 
 Slope distances obtained by mean Electronic Distance Meters (EDM) are subject to atmospheric interference. Since the LASER beam propagates in a medium different of vacuum, the speedy of light is different from that value $c=299 792 458 m/s$ stablished considering a perfect medium of propagation (vacuum). Considering the low atmosphere composition different mathematical models are available and the documentation provided by manufacturer have to be read before to adopt different equations that relates the local atmosphere parameters and the scale factor that is calculated from them to correct the slope distance measured by EDM.
 
-##### By AI
+##### By AI (improved the English writing)
 
 Measurements obtained by Electronic Distance Meters (EDM) to calculate slope distances may be influenced by atmospheric conditions. This is because the LASER beam used in EDM devices travels through a medium that is not a perfect vacuum, causing the speed of light to vary from the standard value of $c=299,792,458 m/s$. In order to account for this discrepancy, various mathematical models have been developed to adjust for atmospheric interference. It is crucial to consult the manufacturer's documentation which provides equations relating local atmospheric parameters to a scale factor, which is used to correct the slope distance measurements obtained by EDM devices.
 
 Reference:
 L. Wang, Y. K. Soh, G. K. H. Pang. "Modeling and Correction of Atmospheric Delay and Its Impact on the Accuracy of EDM Instruments in High-rise Buildings." Sensors 2019, 19, 2951.
 
-##### Rewriting
-As medições obtidas por medidores eletrônicos de distância (EDM) para calcular distâncias de declives podem ser influenciadas pelas condições atmosféricas. Isso ocorre porque o feixe LASER usado em dispositivos EDM viaja através de um meio que não é um vácuo perfeito, fazendo com que a velocidade da luz varie do valor padrão estabelecido de $299792458 m/s$. Para dar conta desta discrepância, vários modelos matemáticos foram desenvolvidos para ajustar a interferência atmosférica. É fundamental consultar a documentação do fabricante que fornece equações relacionando os parâmetros atmosféricos locais a um fator de escala, que é utilizado para corrigir as medidas de distância de declive obtidas pelos dispositivos EDM.
+##### Rewriting the paragraph
+As distâncias obtidas com o emprego de Medidores Eletrônicos de Distância (EDM) (para determinar distâncias inclinadas) podem estar influenciadas pelas condições atmosféricas do meio de propagação da onda. Tal fato ocorre porque o feixe LASER ou MASER utilizado em dispositivos EDM (luz ou microondas) viaja através de um meio que não é um vácuo perfeito, fazendo com que a velocidade da luz varie do valor padrão estabelecido de $299792458 m/s$ para algo ligeiramente menor (contraditório, se o valor da distância obtida for menor, já que a distância se obtém pelo tempo de propagação). Para dar conta desta discrepância, vários modelos matemáticos foram desenvolvidos e propostos para remover esta interferência atmosférica levando-se em consideração alguns parâmetros que definem a composição do meio e as condições de pressão atmosférica e temperatura de bulbo seco e úmido (que leva em conta a presença da umidade na atmosfera local). Face a esta pluralidade de modelos, recomenda-se primeiro consultar a documentação oferecida pelo fabricante do equipamento para cada equipamento específico, pois geralmente fornece todas equações que relacionam os parâmetros atmosféricos locais, modo de medição (diferentes modos podem ser utilizados por um mesmo equipamento que, por exemplo, emprega um feixe com LASER. Diferentes comprimentos de onda na faixa do infravermelho ao visível podem ser escolhidos ou combinados) a um fator de escala, que é utilizado para corrigir as medidas de distância inclinada obtidas por tais dispositivos EDM.
+
+Equations:
+
+- Leica Geosystems: $\begin{equation}ppp(pres,temp,rh,\lambda)\end{equation} = 299.792458 \cdots$
 
 
 #### Plane azimuth
