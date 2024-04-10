@@ -559,8 +559,10 @@ Slope distances obtained by mean Electronic Distance Meters (EDM) are subject to
 Measurements obtained by Electronic Distance Meters (EDM) to calculate slope distances may be influenced by atmospheric conditions. This is because the LASER beam used in EDM devices travels through a medium that is not a perfect vacuum, causing the speed of light to vary from the standard value of $c=299,792,458 m/s$. In order to account for this discrepancy, various mathematical models have been developed to adjust for atmospheric interference. It is crucial to consult the manufacturer's documentation which provides equations relating local atmospheric parameters to a scale factor, which is used to correct the slope distance measurements obtained by EDM devices.
 
 Reference:
-
 L. Wang, Y. K. Soh, G. K. H. Pang. "Modeling and Correction of Atmospheric Delay and Its Impact on the Accuracy of EDM Instruments in High-rise Buildings." Sensors 2019, 19, 2951.
+
+##### Rewriting
+As medições obtidas por medidores eletrônicos de distância (EDM) para calcular distâncias de declives podem ser influenciadas pelas condições atmosféricas. Isso ocorre porque o feixe LASER usado em dispositivos EDM viaja através de um meio que não é um vácuo perfeito, fazendo com que a velocidade da luz varie do valor padrão estabelecido de $299792458 m/s$. Para dar conta desta discrepância, vários modelos matemáticos foram desenvolvidos para ajustar a interferência atmosférica. É fundamental consultar a documentação do fabricante que fornece equações relacionando os parâmetros atmosféricos locais a um fator de escala, que é utilizado para corrigir as medidas de distância de declive obtidas pelos dispositivos EDM.
 
 
 #### Plane azimuth
