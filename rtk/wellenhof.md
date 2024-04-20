@@ -15,6 +15,32 @@ KS_{fix} =
 \end{equation}_{m}
 $$
 
+$$
+\begin{equation}
+LK_{fix} = 
+  \left (
+  \begin{matrix}
+    \ 4\ 214\ 564.113\ 470 \pm 0.000 \\
+    \ 1\ 021\ 603.676\ 074 \pm 0.000 \\
+    \ 4\ 663\ 732.909\ 909 \pm 0.000
+  \end{matrix}
+  \right )
+\end{equation}_{m}
+$$
+
+$$
+\begin{equation}
+SB_{fix} = 
+  \left (
+  \begin{matrix}
+    \ 4\ 213\ 236.950\ 321 \pm 0.000 \\
+    \ 1\ 025\ 203.189\ 048 \pm 0.000 \\
+    \ 4\ 664\ 204.575\ 406 \pm 0.000
+  \end{matrix}
+  \right )
+\end{equation}_{m}
+$$
+
 
 Approximated value
 
