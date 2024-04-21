@@ -1,5 +1,8 @@
 # Combination
 
+
+Sin^2 + Cos^2 = 1
+
 Reference points
 
 $$
