@@ -232,6 +232,7 @@ void parseEphemerisFile(char* filename, GPS_ephemeris* eph) {
     char work[14];
     double second, af0, af1, af2, a, b, c, d;
 
+    /* Improve this block of code - many repeated blocks */
     while (fgets(line, MAX_LINE_LENGTH, file) != NULL) {
         if (headerEnd) {
             n = strlen(line);
