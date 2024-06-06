@@ -14,3 +14,5 @@ File Size: 4156 bytes
 PRN  YYYY mm dd HH MM SS.ssssssss       t                  X                Y                Z           t-toc                   dtsv                   dtsv_tgd                   Xdot           Ydot           Zdot          Xddot          Yddot          Zddot
 PG18 2017 03 29 14 00  0.00000000 307799.92740892  13572817.967241 -22048174.078842   5965851.668295 -1800.0725910847540945     0.0006074982140269     0.0006075093898978 |     749.890366    -262.755918   -2985.175284 |   -0.254611408    0.241984304   -0.126816310
 ```
+
+Bug: this app does not look for the correct broadcast ephemeris based on t, toe and toc.
