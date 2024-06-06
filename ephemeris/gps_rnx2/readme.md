@@ -38,3 +38,5 @@ dtsv    :         0.0006074982140269 s
 dtsv+tgd:         0.0006075093898978 s
 ```
 Bug: this app does not look for the correct broadcast ephemeris based on t, toe and toc.
+
+Source code: https://github.com/gpoleszuk/gnss/blob/main/ephemeris/gps_rnx2/readbrdc_v3.4a.c
