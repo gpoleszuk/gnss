@@ -1,0 +1,96 @@
+
+-----------------------------------------------------------------------------------
+*                   RINEX HEADER EDIT CONFIGURATION DUMP (-crux)                  *
+-----------------------------------------------------------------------------------
+
+{
+
+'M' {
+-----------------------------------------------------------------------------------
+      'ALL' {
+              'replace' {
+                          '1950-01-01 00:00:00,2050-01-01 00:00:00' {
+                                                                      'REGEX' [
+                                                                                [
+                                                                                  'PGM \/ RUN BY \/ DATE\s*COMMENT'
+                                                                                  'COMMENT             '
+                                                                                ]
+                                                                              ]
+                                                                    ]
+                        }
+            }
+    }
+'N' {
+-----------------------------------------------------------------------------------
+      'ALL' {
+              'replace' {
+                          '1950-01-01 00:00:00,2050-01-01 00:00:00' {
+                                                                      'REGEX' [
+                                                                                [
+                                                                                  '^GPGA (.{54}) TIME SYSTEM CORR'
+                                                                                  'GAGP $1 TIME SYSTEM CORR'
+                                                                                ]
+                                                                              ]
+                                                                    ]
+                        }
+            }
+    }
+'O' {
+-----------------------------------------------------------------------------------
+      'ALL' {
+              'replace' {
+                          '1950-01-01 00:00:00,2050-01-01 00:00:00' {
+                                                                      'REGEX' [
+                                                                                [
+                                                                                  'PGM \/ RUN BY \/ DATE\s*COMMENT'
+                                                                                  'COMMENT             '
+                                                                                ]
+                                                                                [
+                                                                                  '^\S\s+SYS \/ PHASE SHIFT\s*'
+                                                                                  ''
+                                                                                ]
+                                                                                [
+                                                                                  '^\s+SYS \/ PHASE SHIFT\s*'
+                                                                                  ''
+                                                                                ]
+                                                                                [
+                                                                                  'GLONASS COD\/PHS\/BIS\S+\s*'
+                                                                                  'GLONASS COD/PHS/BIS'
+                                                                                ]
+                                                                                [
+                                                                                  'WAVELENGHT FACT L1'
+                                                                                  'WAVELENGTH FACT L1'
+                                                                                ]
+                                                                                [
+                                                                                  'OBSERVER\s*/\s*AGENCY'
+                                                                                  'OBSERVER / AGENCY'
+                                                                                ]
+                                                                                [
+                                                                                  'REC\s*#\s*/\s*TYPE\s*/\s*VERS\s*\S*.*$'
+                                                                                  'REC # / TYPE / VERS'
+                                                                                ]
+                                                                                [
+                                                                                  'ANT\s*#\s*/\s*TYPE\s*\S*.*$'
+                                                                                  'ANT # / TYPE'
+                                                                                ]
+                                                                                [
+                                                                                  '^\w    0                                                      SYS \/ \# \/ OBS TYPES'
+                                                                                  ''
+                                                                                ]
+                                                                                [
+                                                                                  '^  [0 ] {57}GLONASS SLOT \/ FRQ'
+                                                                                  ''
+                                                                                ]
+                                                                              ]
+                                                                      'REPLACE' [
+                                                                                  [
+                                                                                    'SYS / PHASE SHIFTS'
+                                                                                    'SYS / PHASE SHIFT '
+                                                                                  ]
+                                                                                ]
+                                                                    ]
+                        }
+            }
+    }
+}
+

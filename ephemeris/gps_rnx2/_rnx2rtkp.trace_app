@@ -1,0 +1,1437 @@
+3 readobsnav: ts=1970/01/01 00:00:00 n=3
+3 readrnxt: file=P0050881.17O rcv=1
+3 expath  : path=P0050881.17O nmax=1024
+3 expath  : file=P0050881.17O
+3 readrnxfile: file=P0050881.17O flag=0 index=1
+3 rtk_uncompress: file=P0050881.17O
+3 rtk_uncompress: stat=0
+3 readrnxfp: flag=0 index=1
+3 readrnxh:
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 readrnxobs: rcv=1 ver=3.04 tsys=849520752
+4 decode_obsepoch: ver=3.04
+4 decode_obsepoch: time=2017/03/29 13:30:00.000 flag=0
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:00 sat=18
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:00 sat=20
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:00 sat=21
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:00 sat=25
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:00 sat=26
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:00 sat=29
+4 decode_obsepoch: ver=3.04
+4 decode_obsepoch: time=2017/03/29 13:30:15.000 flag=0
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:15 sat=18
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:15 sat=20
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:15 sat=21
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:15 sat=25
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:15 sat=26
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:15 sat=29
+4 decode_obsepoch: ver=3.04
+4 decode_obsepoch: time=2017/03/29 13:30:30.000 flag=0
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:30 sat=18
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:30 sat=20
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:30 sat=21
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:30 sat=25
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:30 sat=26
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:30 sat=29
+4 decode_obsepoch: ver=3.04
+4 decode_obsepoch: time=2017/03/29 13:30:45.000 flag=0
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:45 sat=18
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:45 sat=20
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:45 sat=21
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:45 sat=25
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:45 sat=26
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:45 sat=29
+4 decode_obsepoch: ver=3.04
+4 decode_obsepoch: time=2017/03/29 13:31:00.000 flag=0
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:31:00 sat=18
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:31:00 sat=20
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:31:00 sat=21
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:31:00 sat=25
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:31:00 sat=26
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:31:00 sat=29
+4 readrnxobs: nobs=6 stat=1
+3 readrnxt: file=P0010881.17O rcv=2
+3 expath  : path=P0010881.17O nmax=1024
+3 expath  : file=P0010881.17O
+3 readrnxfile: file=P0010881.17O flag=0 index=2
+3 rtk_uncompress: file=P0010881.17O
+3 rtk_uncompress: stat=0
+3 readrnxfp: flag=0 index=2
+3 readrnxh:
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 decode_obsh: ver=3.04
+4 readrnxobs: rcv=2 ver=3.04 tsys=849520752
+4 decode_obsepoch: ver=3.04
+4 decode_obsepoch: time=2017/03/29 13:30:00.000 flag=0
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:00 sat=18
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:00 sat=20
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:00 sat=21
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:00 sat=25
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:00 sat=26
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:00 sat=29
+4 decode_obsepoch: ver=3.04
+4 decode_obsepoch: time=2017/03/29 13:30:15.000 flag=0
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:15 sat=18
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:15 sat=20
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:15 sat=21
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:15 sat=25
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:15 sat=26
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:15 sat=29
+4 decode_obsepoch: ver=3.04
+4 decode_obsepoch: time=2017/03/29 13:30:30.000 flag=0
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:30 sat=18
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:30 sat=20
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:30 sat=21
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:30 sat=25
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:30 sat=26
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:30 sat=29
+4 decode_obsepoch: ver=3.04
+4 decode_obsepoch: time=2017/03/29 13:30:45.000 flag=0
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:45 sat=18
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:45 sat=20
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:45 sat=21
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:45 sat=25
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:45 sat=26
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:30:45 sat=29
+4 decode_obsepoch: ver=3.04
+4 decode_obsepoch: time=2017/03/29 13:31:00.000 flag=0
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:31:00 sat=18
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:31:00 sat=20
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:31:00 sat=21
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:31:00 sat=25
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:31:00 sat=26
+4 decode_obsdata: ver=3.04
+4 decode_obsdata: time=2017/03/29 13:31:00 sat=29
+4 readrnxobs: nobs=12 stat=1
+3 readrnxt: file=BRDC0881.17N rcv=3
+3 expath  : path=BRDC0881.17N nmax=1024
+3 expath  : file=BRDC0881.17N
+3 readrnxfile: file=BRDC0881.17N flag=0 index=3
+3 rtk_uncompress: file=BRDC0881.17N
+3 rtk_uncompress: stat=0
+3 readrnxfp: flag=0 index=3
+3 readrnxh:
+4 decode_navh:
+3 readrnxnav: ver=3.04 sys=1
+4 readrnxnavb: ver=3.04 sys=1
+4 decode_eph: ver=3.04 sat=18
+4 readrnxnavb: ver=3.04 sys=1
+4 decode_eph: ver=3.04 sat=20
+4 readrnxnavb: ver=3.04 sys=1
+4 decode_eph: ver=3.04 sat=21
+4 readrnxnavb: ver=3.04 sys=1
+4 decode_eph: ver=3.04 sat=25
+4 readrnxnavb: ver=3.04 sys=1
+4 decode_eph: ver=3.04 sat=26
+4 readrnxnavb: ver=3.04 sys=1
+4 decode_eph: ver=3.04 sat=29
+4 readrnxnavb: ver=3.04 sys=1
+3 sortobs: nobs=12
+3 uniqnav: neph=6 ngeph=0 nseph=0
+3 uniqeph: n=6
+4 uniqeph: n=6
+3 uniqgeph: ng=0
+3 uniqseph: ns=0
+3 searchpcv: sat= 1 type=
+3 no satellite antenna pcv: G01
+3 searchpcv: sat= 2 type=
+3 no satellite antenna pcv: G02
+3 searchpcv: sat= 3 type=
+3 no satellite antenna pcv: G03
+3 searchpcv: sat= 4 type=
+3 no satellite antenna pcv: G04
+3 searchpcv: sat= 5 type=
+3 no satellite antenna pcv: G05
+3 searchpcv: sat= 6 type=
+3 no satellite antenna pcv: G06
+3 searchpcv: sat= 7 type=
+3 no satellite antenna pcv: G07
+3 searchpcv: sat= 8 type=
+3 no satellite antenna pcv: G08
+3 searchpcv: sat= 9 type=
+3 no satellite antenna pcv: G09
+3 searchpcv: sat=10 type=
+3 no satellite antenna pcv: G10
+3 searchpcv: sat=11 type=
+3 no satellite antenna pcv: G11
+3 searchpcv: sat=12 type=
+3 no satellite antenna pcv: G12
+3 searchpcv: sat=13 type=
+3 no satellite antenna pcv: G13
+3 searchpcv: sat=14 type=
+3 no satellite antenna pcv: G14
+3 searchpcv: sat=15 type=
+3 no satellite antenna pcv: G15
+3 searchpcv: sat=16 type=
+3 no satellite antenna pcv: G16
+3 searchpcv: sat=17 type=
+3 no satellite antenna pcv: G17
+3 searchpcv: sat=18 type=
+3 no satellite antenna pcv: G18
+3 searchpcv: sat=19 type=
+3 no satellite antenna pcv: G19
+3 searchpcv: sat=20 type=
+3 no satellite antenna pcv: G20
+3 searchpcv: sat=21 type=
+3 no satellite antenna pcv: G21
+3 searchpcv: sat=22 type=
+3 no satellite antenna pcv: G22
+3 searchpcv: sat=23 type=
+3 no satellite antenna pcv: G23
+3 searchpcv: sat=24 type=
+3 no satellite antenna pcv: G24
+3 searchpcv: sat=25 type=
+3 no satellite antenna pcv: G25
+3 searchpcv: sat=26 type=
+3 no satellite antenna pcv: G26
+3 searchpcv: sat=27 type=
+3 no satellite antenna pcv: G27
+3 searchpcv: sat=28 type=
+3 no satellite antenna pcv: G28
+3 searchpcv: sat=29 type=
+3 no satellite antenna pcv: G29
+3 searchpcv: sat=30 type=
+3 no satellite antenna pcv: G30
+3 searchpcv: sat=31 type=
+3 no satellite antenna pcv: G31
+3 searchpcv: sat=32 type=
+3 no satellite antenna pcv: G32
+3 searchpcv: sat=33 type=
+3 no satellite antenna pcv: R01
+3 searchpcv: sat=34 type=
+3 no satellite antenna pcv: R02
+3 searchpcv: sat=35 type=
+3 no satellite antenna pcv: R03
+3 searchpcv: sat=36 type=
+3 no satellite antenna pcv: R04
+3 searchpcv: sat=37 type=
+3 no satellite antenna pcv: R05
+3 searchpcv: sat=38 type=
+3 no satellite antenna pcv: R06
+3 searchpcv: sat=39 type=
+3 no satellite antenna pcv: R07
+3 searchpcv: sat=40 type=
+3 no satellite antenna pcv: R08
+3 searchpcv: sat=41 type=
+3 no satellite antenna pcv: R09
+3 searchpcv: sat=42 type=
+3 no satellite antenna pcv: R10
+3 searchpcv: sat=43 type=
+3 no satellite antenna pcv: R11
+3 searchpcv: sat=44 type=
+3 no satellite antenna pcv: R12
+3 searchpcv: sat=45 type=
+3 no satellite antenna pcv: R13
+3 searchpcv: sat=46 type=
+3 no satellite antenna pcv: R14
+3 searchpcv: sat=47 type=
+3 no satellite antenna pcv: R15
+3 searchpcv: sat=48 type=
+3 no satellite antenna pcv: R16
+3 searchpcv: sat=49 type=
+3 no satellite antenna pcv: R17
+3 searchpcv: sat=50 type=
+3 no satellite antenna pcv: R18
+3 searchpcv: sat=51 type=
+3 no satellite antenna pcv: R19
+3 searchpcv: sat=52 type=
+3 no satellite antenna pcv: R20
+3 searchpcv: sat=53 type=
+3 no satellite antenna pcv: R21
+3 searchpcv: sat=54 type=
+3 no satellite antenna pcv: R22
+3 searchpcv: sat=55 type=
+3 no satellite antenna pcv: R23
+3 searchpcv: sat=56 type=
+3 no satellite antenna pcv: R24
+3 searchpcv: sat=57 type=
+3 no satellite antenna pcv: R25
+3 searchpcv: sat=58 type=
+3 no satellite antenna pcv: R26
+3 searchpcv: sat=59 type=
+3 no satellite antenna pcv: R27
+3 searchpcv: sat= 0 type=
+2 no receiver antenna pcv: 
+3 searchpcv: sat= 0 type=
+2 no receiver antenna pcv: 
+3 antpos  : rcvno=2
+3 rtkclosestat:
+3 rtkopenstat: file=.stat level=2
+3 outhead: outfile= n=3
+3 outheader: n=3
+3 outrpos :
+3 outsolhead:
+3 outsolheads:
+3 openfile: outfile=
+3 procpos : mode=0
+3 rtkinit :
+3 infunc  : revs=0 iobsu=0 iobsr=0 isbs=0
+3 rtkpos  : time=2017/03/29 13:30:00.000 n=12
+4 obs=
+ ( 1) 2017/03/29 13:30:00.000 G18 rcv1 113407358.314  88369374.712  21580703.380  21580702.780 0 0 1 20 50.5 43.0
+ ( 2) 2017/03/29 13:30:00.000 G20 rcv1 110494945.277  86099953.500  21026489.640  21026489.020 0 0 1 20 49.8 45.0
+ ( 3) 2017/03/29 13:30:00.000 G21 rcv1 109987370.041  85704439.947  20929900.560  20929899.740 0 0 1 20 50.0 44.8
+ ( 4) 2017/03/29 13:30:00.000 G25 rcv1 111047886.179  86530826.271  21131711.760  21131714.340 0 0 1 20 50.2 45.8
+ ( 5) 2017/03/29 13:30:00.000 G26 rcv1 121228063.005  94463445.253  23068932.220  23068935.940 0 0 1 20 46.2 40.2
+ ( 6) 2017/03/29 13:30:00.000 G29 rcv1 111015025.462  86505214.578  21125457.620  21125457.740 0 0 1 20 50.8 45.2
+ ( 7) 2017/03/29 13:30:00.000 G18 rcv2 113404476.739  88367107.265  21580149.100  21580149.480 0 0 1 20 48.2 41.2
+ ( 8) 2017/03/29 13:30:00.000 G20 rcv2 110495458.700  86100356.046  21026587.060  21026586.820 0 0 1 20 46.8 42.0
+ ( 9) 2017/03/29 13:30:00.000 G21 rcv2 109990153.129  85706599.730  20930429.220  20930429.020 0 0 1 20 50.2 44.8
+ (10) 2017/03/29 13:30:00.000 G25 rcv2 111044740.993  86528375.123  21131113.460  21131116.860 0 0 1 20 49.5 43.8
+ (11) 2017/03/29 13:30:00.000 G26 rcv2 121232626.331  94467019.458  23069799.480  23069803.300 0 0 1 20 45.5 38.8
+ (12) 2017/03/29 13:30:00.000 G29 rcv2 111016526.897  86506384.273  21125742.900  21125743.240 0 0 1 20 49.0 35.5
+3 pntpos  : tobs=2017/03/29 13:30:00.000 n=6
+3 satposs : teph=2017/03/29 13:30:00.000 n=6 ephopt=0
+4 ephclk  : time=2017/03/29 13:29:59.928 sat=18
+4 seleph  : time=2017/03/29 13:30:00.000 sat=18 iode=-1
+4 eph2clk : time=2017/03/29 13:29:59.928 sat=18
+4 satpos  : time=2017/03/29 13:29:59.927 sat=18 ephopt=0
+4 ephpos  : time=2017/03/29 13:29:59.927 sat=18 iode=-1
+4 seleph  : time=2017/03/29 13:30:00.000 sat=18 iode=-1
+4 eph2pos : time=2017/03/29 13:29:59.927 sat=18
+4 kepler: sat=18 e= 0.01786 n= 3 del= 7.261e-14
+4 eph2pos : time=2017/03/29 13:29:59.928 sat=18
+4 kepler: sat=18 e= 0.01786 n= 3 del= 7.261e-14
+4 ephclk  : time=2017/03/29 13:29:59.930 sat=20
+4 seleph  : time=2017/03/29 13:30:00.000 sat=20 iode=-1
+4 eph2clk : time=2017/03/29 13:29:59.930 sat=20
+4 satpos  : time=2017/03/29 13:29:59.929 sat=20 ephopt=0
+4 ephpos  : time=2017/03/29 13:29:59.929 sat=20 iode=-1
+4 seleph  : time=2017/03/29 13:30:00.000 sat=20 iode=-1
+4 eph2pos : time=2017/03/29 13:29:59.929 sat=20
+4 kepler: sat=20 e= 0.00444 n= 3 del= 0.000e+00
+4 eph2pos : time=2017/03/29 13:29:59.930 sat=20
+4 kepler: sat=20 e= 0.00444 n= 3 del= 0.000e+00
+4 ephclk  : time=2017/03/29 13:29:59.930 sat=21
+4 seleph  : time=2017/03/29 13:30:00.000 sat=21 iode=-1
+4 eph2clk : time=2017/03/29 13:29:59.930 sat=21
+4 satpos  : time=2017/03/29 13:29:59.931 sat=21 ephopt=0
+4 ephpos  : time=2017/03/29 13:29:59.931 sat=21 iode=-1
+4 seleph  : time=2017/03/29 13:30:00.000 sat=21 iode=-1
+4 eph2pos : time=2017/03/29 13:29:59.931 sat=21
+4 kepler: sat=21 e= 0.02402 n= 3 del= 2.387e-14
+4 eph2pos : time=2017/03/29 13:29:59.932 sat=21
+4 kepler: sat=21 e= 0.02402 n= 3 del= 2.376e-14
+4 ephclk  : time=2017/03/29 13:29:59.930 sat=25
+4 seleph  : time=2017/03/29 13:30:00.000 sat=25 iode=-1
+4 eph2clk : time=2017/03/29 13:29:59.930 sat=25
+4 satpos  : time=2017/03/29 13:29:59.930 sat=25 ephopt=0
+4 ephpos  : time=2017/03/29 13:29:59.930 sat=25 iode=-1
+4 seleph  : time=2017/03/29 13:30:00.000 sat=25 iode=-1
+4 eph2pos : time=2017/03/29 13:29:59.930 sat=25
+4 kepler: sat=25 e= 0.00639 n= 3 del= 0.000e+00
+4 eph2pos : time=2017/03/29 13:29:59.931 sat=25
+4 kepler: sat=25 e= 0.00639 n= 3 del= 0.000e+00
+4 ephclk  : time=2017/03/29 13:29:59.923 sat=26
+4 seleph  : time=2017/03/29 13:30:00.000 sat=26 iode=-1
+4 eph2clk : time=2017/03/29 13:29:59.923 sat=26
+4 satpos  : time=2017/03/29 13:29:59.924 sat=26 ephopt=0
+4 ephpos  : time=2017/03/29 13:29:59.924 sat=26 iode=-1
+4 seleph  : time=2017/03/29 13:30:00.000 sat=26 iode=-1
+4 eph2pos : time=2017/03/29 13:29:59.924 sat=26
+4 kepler: sat=26 e= 0.00181 n= 3 del= 2.220e-16
+4 eph2pos : time=2017/03/29 13:29:59.925 sat=26
+4 kepler: sat=26 e= 0.00181 n= 3 del= 0.000e+00
+4 ephclk  : time=2017/03/29 13:29:59.930 sat=29
+4 seleph  : time=2017/03/29 13:30:00.000 sat=29 iode=-1
+4 eph2clk : time=2017/03/29 13:29:59.930 sat=29
+4 satpos  : time=2017/03/29 13:29:59.929 sat=29 ephopt=0
+4 ephpos  : time=2017/03/29 13:29:59.929 sat=29 iode=-1
+4 seleph  : time=2017/03/29 13:30:00.000 sat=29 iode=-1
+4 eph2pos : time=2017/03/29 13:29:59.929 sat=29
+4 kepler: sat=29 e= 0.00071 n= 3 del= 0.000e+00
+4 eph2pos : time=2017/03/29 13:29:59.930 sat=29
+4 kepler: sat=29 e= 0.00071 n= 3 del= 0.000e+00
+4 2017/03/29 13:29:59.927407 sat=18 rs= 13572817.966 -22048174.078   5965851.674 dts=  607498.214 var=  5.760 svh=00
+4 2017/03/29 13:29:59.929397 sat=20 rs= 20604422.732  -7705492.328 -15030213.307 dts=  466083.278 var=  5.760 svh=00
+4 2017/03/29 13:29:59.930700 sat=21 rs=  4112932.052 -21351743.929 -14374656.402 dts= -515018.531 var=  5.760 svh=00
+4 2017/03/29 13:29:59.929873 sat=25 rs= 19568952.813 -17561977.708   2630103.297 dts= -360683.551 var=  5.760 svh=00
+4 2017/03/29 13:29:59.923567 sat=26 rs= -3190194.300 -17088242.662 -20058205.246 dts= -516581.912 var=  5.760 svh=00
+4 2017/03/29 13:29:59.928916 sat=29 rs= 18129968.403  -7033115.700 -18075605.208 dts=  616745.254 var=  5.760 svh=00
+3 estpos  : n=6
+3 resprng : n=6
+4 sat=18 azel=  0.0  0.0 res=-4806602.585 sig=2.641
+4 sat=20 azel=  0.0  0.0 res=-5476305.005 sig=2.641
+4 sat=21 azel=  0.0  0.0 res=-5290640.380 sig=2.641
+4 sat=25 azel=  0.0  0.0 res=-5401491.904 sig=2.641
+4 sat=26 azel=  0.0  0.0 res=-3628675.877 sig=2.641
+4 sat=29 azel=  0.0  0.0 res=-5239370.180 sig=2.641
+3 resprng : n=6
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=18 pos=-22.033 -47.843 azel=342.546 40.937
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.033 -47.843 azel=342.546 40.937
+4 sat=18 azel=342.5 40.9 res=-494454.709 sig=3.910
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=20 pos=-22.033 -47.843 azel=123.223 53.114
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.033 -47.843 azel=123.223 53.114
+4 sat=20 azel=123.2 53.1 res=-306895.426 sig=3.588
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=21 pos=-22.033 -47.843 azel=240.564 49.116
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.033 -47.843 azel=240.564 49.116
+4 sat=21 azel=240.6 49.1 res=-369635.951 sig=3.644
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=25 pos=-22.033 -47.843 azel=12.532 51.214
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.033 -47.843 azel=12.532 51.214
+4 sat=25 azel= 12.5 51.2 res=-337534.892 sig=3.605
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=26 pos=-22.033 -47.843 azel=223.341 25.518
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.033 -47.843 azel=223.341 25.518
+4 sat=26 azel=223.3 25.5 res=-774643.770 sig=4.760
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=29 pos=-22.033 -47.843 azel=139.612 48.543
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.033 -47.843 azel=139.612 48.543
+4 sat=29 azel=139.6 48.5 res=-368799.784 sig=3.709
+3 resprng : n=6
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=18 pos=-22.012 -47.920 azel=342.659 43.467
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.012 -47.920 azel=342.659 43.467
+4 sat=18 azel=342.7 43.5 res=-19971.430 sig=3.816
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=20 pos=-22.012 -47.920 azel=123.210 55.051
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.012 -47.920 azel=123.210 55.051
+4 sat=20 azel=123.2 55.1 res=-13366.125 sig=3.542
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=21 pos=-22.012 -47.920 azel=240.498 51.432
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.012 -47.920 azel=240.498 51.432
+4 sat=21 azel=240.5 51.4 res=-16117.941 sig=3.585
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=25 pos=-22.012 -47.920 azel=12.700 53.350
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.012 -47.920 azel=12.700 53.350
+4 sat=25 azel= 12.7 53.4 res=-14983.314 sig=3.553
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=26 pos=-22.012 -47.920 azel=223.313 28.369
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.012 -47.920 azel=223.313 28.369
+4 sat=26 azel=223.3 28.4 res=-28071.491 sig=4.567
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=29 pos=-22.012 -47.920 azel=139.572 50.686
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.012 -47.920 azel=139.572 50.686
+4 sat=29 azel=139.6 50.7 res=-15164.358 sig=3.646
+3 resprng : n=6
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=18 pos=-22.006 -47.932 azel=342.676 43.552
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.006 -47.932 azel=342.676 43.552
+4 sat=18 azel=342.7 43.6 res=-21.913 sig=3.813
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=20 pos=-22.006 -47.932 azel=123.211 55.096
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.006 -47.932 azel=123.211 55.096
+4 sat=20 azel=123.2 55.1 res=-13.392 sig=3.541
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=21 pos=-22.006 -47.932 azel=240.485 51.508
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.006 -47.932 azel=240.485 51.508
+4 sat=21 azel=240.5 51.5 res=-17.839 sig=3.583
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=25 pos=-22.006 -47.932 azel=12.727 53.417
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.006 -47.932 azel=12.727 53.417
+4 sat=25 azel= 12.7 53.4 res=-16.902 sig=3.552
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=26 pos=-22.006 -47.932 azel=223.307 28.460
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.006 -47.932 azel=223.307 28.460
+4 sat=26 azel=223.3 28.5 res=-31.280 sig=4.561
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=29 pos=-22.006 -47.932 azel=139.568 50.739
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.006 -47.932 azel=139.568 50.739
+4 sat=29 azel=139.6 50.7 res=-16.225 sig=3.645
+3 resprng : n=6
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=18 pos=-22.006 -47.932 azel=342.676 43.552
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.006 -47.932 azel=342.676 43.552
+4 sat=18 azel=342.7 43.6 res=  0.406 sig=3.813
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=20 pos=-22.006 -47.932 azel=123.211 55.097
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.006 -47.932 azel=123.211 55.097
+4 sat=20 azel=123.2 55.1 res=  0.486 sig=3.541
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=21 pos=-22.006 -47.932 azel=240.485 51.508
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.006 -47.932 azel=240.485 51.508
+4 sat=21 azel=240.5 51.5 res=  0.006 sig=3.583
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=25 pos=-22.006 -47.932 azel=12.727 53.417
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.006 -47.932 azel=12.727 53.417
+4 sat=25 azel= 12.7 53.4 res= -0.517 sig=3.552
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=26 pos=-22.006 -47.932 azel=223.307 28.460
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.006 -47.932 azel=223.307 28.460
+4 sat=26 azel=223.3 28.5 res= -0.151 sig=4.561
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=29 pos=-22.006 -47.932 azel=139.568 50.739
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.006 -47.932 azel=139.568 50.739
+4 sat=29 azel=139.6 50.7 res= -0.351 sig=3.645
+3 resprng : n=6
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=18 pos=-22.006 -47.932 azel=342.676 43.552
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.006 -47.932 azel=342.676 43.552
+4 sat=18 azel=342.7 43.6 res=  0.425 sig=3.813
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=20 pos=-22.006 -47.932 azel=123.211 55.097
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.006 -47.932 azel=123.211 55.097
+4 sat=20 azel=123.2 55.1 res=  0.501 sig=3.541
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=21 pos=-22.006 -47.932 azel=240.485 51.508
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.006 -47.932 azel=240.485 51.508
+4 sat=21 azel=240.5 51.5 res=  0.022 sig=3.583
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=25 pos=-22.006 -47.932 azel=12.727 53.417
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.006 -47.932 azel=12.727 53.417
+4 sat=25 azel= 12.7 53.4 res= -0.501 sig=3.552
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=26 pos=-22.006 -47.932 azel=223.307 28.460
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.006 -47.932 azel=223.307 28.460
+4 sat=26 azel=223.3 28.5 res= -0.125 sig=4.561
+4 ionocorr: time=2017/03/29 13:30:00.000 opt=1 sat=29 pos=-22.006 -47.932 azel=139.568 50.739
+4 tropcorr: time=2017/03/29 13:30:00.000 opt=1 pos=-22.006 -47.932 azel=139.568 50.739
+4 sat=29 azel=139.6 50.7 res= -0.334 sig=3.645
+3 valsol  : n=6 nv=10
+3 estvel  : n=6
+3 resdop  : n=6
+3 resdop  : n=6
+3 resdop  : n=6
+3 relpos  : nx=445 nu=6 nr=6
+3 satposs : teph=2017/03/29 13:30:00.000 n=12 ephopt=0
+4 ephclk  : time=2017/03/29 13:29:59.928 sat=18
+4 seleph  : time=2017/03/29 13:30:00.000 sat=18 iode=-1
+4 eph2clk : time=2017/03/29 13:29:59.928 sat=18
+4 satpos  : time=2017/03/29 13:29:59.927 sat=18 ephopt=0
+4 ephpos  : time=2017/03/29 13:29:59.927 sat=18 iode=-1
+4 seleph  : time=2017/03/29 13:30:00.000 sat=18 iode=-1
+4 eph2pos : time=2017/03/29 13:29:59.927 sat=18
+4 kepler: sat=18 e= 0.01786 n= 3 del= 7.261e-14
+4 eph2pos : time=2017/03/29 13:29:59.928 sat=18
+4 kepler: sat=18 e= 0.01786 n= 3 del= 7.261e-14
+4 ephclk  : time=2017/03/29 13:29:59.930 sat=20
+4 seleph  : time=2017/03/29 13:30:00.000 sat=20 iode=-1
+4 eph2clk : time=2017/03/29 13:29:59.930 sat=20
+4 satpos  : time=2017/03/29 13:29:59.929 sat=20 ephopt=0
+4 ephpos  : time=2017/03/29 13:29:59.929 sat=20 iode=-1
+4 seleph  : time=2017/03/29 13:30:00.000 sat=20 iode=-1
+4 eph2pos : time=2017/03/29 13:29:59.929 sat=20
+4 kepler: sat=20 e= 0.00444 n= 3 del= 0.000e+00
+4 eph2pos : time=2017/03/29 13:29:59.930 sat=20
+4 kepler: sat=20 e= 0.00444 n= 3 del= 0.000e+00
+4 ephclk  : time=2017/03/29 13:29:59.930 sat=21
+4 seleph  : time=2017/03/29 13:30:00.000 sat=21 iode=-1
+4 eph2clk : time=2017/03/29 13:29:59.930 sat=21
+4 satpos  : time=2017/03/29 13:29:59.931 sat=21 ephopt=0
+4 ephpos  : time=2017/03/29 13:29:59.931 sat=21 iode=-1
+4 seleph  : time=2017/03/29 13:30:00.000 sat=21 iode=-1
+4 eph2pos : time=2017/03/29 13:29:59.931 sat=21
+4 kepler: sat=21 e= 0.02402 n= 3 del= 2.387e-14
+4 eph2pos : time=2017/03/29 13:29:59.932 sat=21
+4 kepler: sat=21 e= 0.02402 n= 3 del= 2.376e-14
+4 ephclk  : time=2017/03/29 13:29:59.930 sat=25
+4 seleph  : time=2017/03/29 13:30:00.000 sat=25 iode=-1
+4 eph2clk : time=2017/03/29 13:29:59.930 sat=25
+4 satpos  : time=2017/03/29 13:29:59.930 sat=25 ephopt=0
+4 ephpos  : time=2017/03/29 13:29:59.930 sat=25 iode=-1
+4 seleph  : time=2017/03/29 13:30:00.000 sat=25 iode=-1
+4 eph2pos : time=2017/03/29 13:29:59.930 sat=25
+4 kepler: sat=25 e= 0.00639 n= 3 del= 0.000e+00
+4 eph2pos : time=2017/03/29 13:29:59.931 sat=25
+4 kepler: sat=25 e= 0.00639 n= 3 del= 0.000e+00
+4 ephclk  : time=2017/03/29 13:29:59.923 sat=26
+4 seleph  : time=2017/03/29 13:30:00.000 sat=26 iode=-1
+4 eph2clk : time=2017/03/29 13:29:59.923 sat=26
+4 satpos  : time=2017/03/29 13:29:59.924 sat=26 ephopt=0
+4 ephpos  : time=2017/03/29 13:29:59.924 sat=26 iode=-1
+4 seleph  : time=2017/03/29 13:30:00.000 sat=26 iode=-1
+4 eph2pos : time=2017/03/29 13:29:59.924 sat=26
+4 kepler: sat=26 e= 0.00181 n= 3 del= 2.220e-16
+4 eph2pos : time=2017/03/29 13:29:59.925 sat=26
+4 kepler: sat=26 e= 0.00181 n= 3 del= 0.000e+00
+4 ephclk  : time=2017/03/29 13:29:59.930 sat=29
+4 seleph  : time=2017/03/29 13:30:00.000 sat=29 iode=-1
+4 eph2clk : time=2017/03/29 13:29:59.930 sat=29
+4 satpos  : time=2017/03/29 13:29:59.929 sat=29 ephopt=0
+4 ephpos  : time=2017/03/29 13:29:59.929 sat=29 iode=-1
+4 seleph  : time=2017/03/29 13:30:00.000 sat=29 iode=-1
+4 eph2pos : time=2017/03/29 13:29:59.929 sat=29
+4 kepler: sat=29 e= 0.00071 n= 3 del= 0.000e+00
+4 eph2pos : time=2017/03/29 13:29:59.930 sat=29
+4 kepler: sat=29 e= 0.00071 n= 3 del= 0.000e+00
+4 ephclk  : time=2017/03/29 13:29:59.928 sat=18
+4 seleph  : time=2017/03/29 13:30:00.000 sat=18 iode=-1
+4 eph2clk : time=2017/03/29 13:29:59.928 sat=18
+4 satpos  : time=2017/03/29 13:29:59.927 sat=18 ephopt=0
+4 ephpos  : time=2017/03/29 13:29:59.927 sat=18 iode=-1
+4 seleph  : time=2017/03/29 13:30:00.000 sat=18 iode=-1
+4 eph2pos : time=2017/03/29 13:29:59.927 sat=18
+4 kepler: sat=18 e= 0.01786 n= 3 del= 7.239e-14
+4 eph2pos : time=2017/03/29 13:29:59.928 sat=18
+4 kepler: sat=18 e= 0.01786 n= 3 del= 7.261e-14
+4 ephclk  : time=2017/03/29 13:29:59.930 sat=20
+4 seleph  : time=2017/03/29 13:30:00.000 sat=20 iode=-1
+4 eph2clk : time=2017/03/29 13:29:59.930 sat=20
+4 satpos  : time=2017/03/29 13:29:59.929 sat=20 ephopt=0
+4 ephpos  : time=2017/03/29 13:29:59.929 sat=20 iode=-1
+4 seleph  : time=2017/03/29 13:30:00.000 sat=20 iode=-1
+4 eph2pos : time=2017/03/29 13:29:59.929 sat=20
+4 kepler: sat=20 e= 0.00444 n= 3 del= 4.441e-16
+4 eph2pos : time=2017/03/29 13:29:59.930 sat=20
+4 kepler: sat=20 e= 0.00444 n= 3 del= 0.000e+00
+4 ephclk  : time=2017/03/29 13:29:59.930 sat=21
+4 seleph  : time=2017/03/29 13:30:00.000 sat=21 iode=-1
+4 eph2clk : time=2017/03/29 13:29:59.930 sat=21
+4 satpos  : time=2017/03/29 13:29:59.931 sat=21 ephopt=0
+4 ephpos  : time=2017/03/29 13:29:59.931 sat=21 iode=-1
+4 seleph  : time=2017/03/29 13:30:00.000 sat=21 iode=-1
+4 eph2pos : time=2017/03/29 13:29:59.931 sat=21
+4 kepler: sat=21 e= 0.02402 n= 3 del= 2.387e-14
+4 eph2pos : time=2017/03/29 13:29:59.932 sat=21
+4 kepler: sat=21 e= 0.02402 n= 3 del= 2.387e-14
+4 ephclk  : time=2017/03/29 13:29:59.930 sat=25
+4 seleph  : time=2017/03/29 13:30:00.000 sat=25 iode=-1
+4 eph2clk : time=2017/03/29 13:29:59.930 sat=25
+4 satpos  : time=2017/03/29 13:29:59.930 sat=25 ephopt=0
+4 ephpos  : time=2017/03/29 13:29:59.930 sat=25 iode=-1
+4 seleph  : time=2017/03/29 13:30:00.000 sat=25 iode=-1
+4 eph2pos : time=2017/03/29 13:29:59.930 sat=25
+4 kepler: sat=25 e= 0.00639 n= 3 del= 0.000e+00
+4 eph2pos : time=2017/03/29 13:29:59.931 sat=25
+4 kepler: sat=25 e= 0.00639 n= 3 del= 0.000e+00
+4 ephclk  : time=2017/03/29 13:29:59.923 sat=26
+4 seleph  : time=2017/03/29 13:30:00.000 sat=26 iode=-1
+4 eph2clk : time=2017/03/29 13:29:59.923 sat=26
+4 satpos  : time=2017/03/29 13:29:59.924 sat=26 ephopt=0
+4 ephpos  : time=2017/03/29 13:29:59.924 sat=26 iode=-1
+4 seleph  : time=2017/03/29 13:30:00.000 sat=26 iode=-1
+4 eph2pos : time=2017/03/29 13:29:59.924 sat=26
+4 kepler: sat=26 e= 0.00181 n= 3 del= 0.000e+00
+4 eph2pos : time=2017/03/29 13:29:59.925 sat=26
+4 kepler: sat=26 e= 0.00181 n= 3 del= 0.000e+00
+4 ephclk  : time=2017/03/29 13:29:59.930 sat=29
+4 seleph  : time=2017/03/29 13:30:00.000 sat=29 iode=-1
+4 eph2clk : time=2017/03/29 13:29:59.930 sat=29
+4 satpos  : time=2017/03/29 13:29:59.929 sat=29 ephopt=0
+4 ephpos  : time=2017/03/29 13:29:59.929 sat=29 iode=-1
+4 seleph  : time=2017/03/29 13:30:00.000 sat=29 iode=-1
+4 eph2pos : time=2017/03/29 13:29:59.929 sat=29
+4 kepler: sat=29 e= 0.00071 n= 3 del= 0.000e+00
+4 eph2pos : time=2017/03/29 13:29:59.930 sat=29
+4 kepler: sat=29 e= 0.00071 n= 3 del= 1.110e-16
+4 2017/03/29 13:29:59.927407 sat=18 rs= 13572817.966 -22048174.078   5965851.674 dts=  607498.214 var=  5.760 svh=00
+4 2017/03/29 13:29:59.929397 sat=20 rs= 20604422.732  -7705492.328 -15030213.307 dts=  466083.278 var=  5.760 svh=00
+4 2017/03/29 13:29:59.930700 sat=21 rs=  4112932.052 -21351743.929 -14374656.402 dts= -515018.531 var=  5.760 svh=00
+4 2017/03/29 13:29:59.929873 sat=25 rs= 19568952.813 -17561977.708   2630103.297 dts= -360683.551 var=  5.760 svh=00
+4 2017/03/29 13:29:59.923567 sat=26 rs= -3190194.300 -17088242.662 -20058205.246 dts= -516581.912 var=  5.760 svh=00
+4 2017/03/29 13:29:59.928916 sat=29 rs= 18129968.403  -7033115.700 -18075605.208 dts=  616745.254 var=  5.760 svh=00
+4 2017/03/29 13:29:59.927409 sat=18 rs= 13572817.967 -22048174.079   5965851.668 dts=  607498.214 var=  5.760 svh=00
+4 2017/03/29 13:29:59.929397 sat=20 rs= 20604422.733  -7705492.328 -15030213.306 dts=  466083.278 var=  5.760 svh=00
+4 2017/03/29 13:29:59.930699 sat=21 rs=  4112932.051 -21351743.933 -14374656.398 dts= -515018.531 var=  5.760 svh=00
+4 2017/03/29 13:29:59.929875 sat=25 rs= 19568952.813 -17561977.708   2630103.303 dts= -360683.551 var=  5.760 svh=00
+4 2017/03/29 13:29:59.923564 sat=26 rs= -3190194.306 -17088242.657 -20058205.250 dts= -516581.912 var=  5.760 svh=00
+4 2017/03/29 13:29:59.928915 sat=29 rs= 18129968.401  -7033115.701 -18075605.210 dts=  616745.254 var=  5.760 svh=00
+3 zdres   : n=6
+4 tropmapf: pos=-21.997928  -47.927975  834.0 azel=342.7 43.6
+4 antmodel: azel= 342.7 43.6 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-21.997928  -47.927975  834.0 azel=123.2 55.1
+4 antmodel: azel= 123.2 55.1 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-21.997928  -47.927975  834.0 azel=240.5 51.5
+4 antmodel: azel= 240.5 51.5 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-21.997928  -47.927975  834.0 azel= 12.7 53.4
+4 antmodel: azel=  12.7 53.4 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-21.997928  -47.927975  834.0 azel=223.3 28.4
+4 antmodel: azel= 223.3 28.4 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-21.997928  -47.927975  834.0 azel=139.6 50.7
+4 antmodel: azel= 139.6 50.7 opt=0
+5 antmodel: dant= 0.000  0.000
+4 rr_=3965001.079 -4392463.168 -2374512.574
+4 pos=-21.997928255 -47.927975416 833.966
+4 sat=18  13572817.967 -22048174.079   5965851.668  0.0006074982  342.7  43.6
+4 sat=20  20604422.733  -7705492.328 -15030213.306  0.0004660833  123.2  55.1
+4 sat=21   4112932.051 -21351743.933 -14374656.398 -0.0005150185  240.5  51.5
+4 sat=25  19568952.813 -17561977.708   2630103.303 -0.0003606836   12.7  53.4
+4 sat=26  -3190194.306 -17088242.657 -20058205.250 -0.0005165819  223.3  28.4
+4 sat=29  18129968.401  -7033115.701 -18075605.210  0.0006167453  139.6  50.7
+4 y=
+         8.243         2.841         3.924         4.790        10.487         1.590
+         3.977         2.503         0.725         6.138        19.743         1.511
+         2.952         3.237         2.933         6.642         8.240         1.845
+         3.332         2.997         2.733        10.042        12.060         2.185
+3 selsat  : nu=6 nr=6
+4 ( 0) sat= 18 iu= 0 ir= 6
+4 ( 1) sat= 20 iu= 1 ir= 7
+4 ( 2) sat= 21 iu= 2 ir= 8
+4 ( 3) sat= 25 iu= 3 ir= 9
+4 ( 4) sat= 26 iu= 4 ir=10
+4 ( 5) sat= 29 iu= 5 ir=11
+3 udstate : ns=6
+3 udpos   : tt=0.000
+3 udbias  : tt=0.000 ns=6
+3 detslp_ll: i=0 rcv=1
+3 detslp_ll: i=6 rcv=2
+3 detslp_gf: i=0 j=6
+3 detslp_ll: i=1 rcv=1
+3 detslp_ll: i=7 rcv=2
+3 detslp_gf: i=1 j=7
+3 detslp_ll: i=2 rcv=1
+3 detslp_ll: i=8 rcv=2
+3 detslp_gf: i=2 j=8
+3 detslp_ll: i=3 rcv=1
+3 detslp_ll: i=9 rcv=2
+3 detslp_gf: i=3 j=9
+3 detslp_ll: i=4 rcv=1
+3 detslp_ll: i=10 rcv=2
+3 detslp_gf: i=4 j=10
+3 detslp_ll: i=5 rcv=1
+3 detslp_ll: i=11 rcv=2
+3 detslp_gf: i=5 j=11
+4 x(0)=  3964446.2179 -4392487.8775 -2375388.0664
+3 zdres   : n=6
+4 tropmapf: pos=-22.006454  -47.932124  834.3 azel=342.7 43.6
+4 antmodel: azel= 342.7 43.6 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-22.006454  -47.932124  834.3 azel=123.2 55.1
+4 antmodel: azel= 123.2 55.1 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-22.006454  -47.932124  834.3 azel=240.5 51.5
+4 antmodel: azel= 240.5 51.5 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-22.006454  -47.932124  834.3 azel= 12.7 53.4
+4 antmodel: azel=  12.7 53.4 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-22.006454  -47.932124  834.3 azel=223.3 28.5
+4 antmodel: azel= 223.3 28.5 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-22.006454  -47.932124  834.3 azel=139.6 50.7
+4 antmodel: azel= 139.6 50.7 opt=0
+5 antmodel: dant= 0.000  0.000
+4 rr_=3964446.218 -4392487.877 -2375388.066
+4 pos=-22.006453629 -47.932124032 834.267
+4 sat=18  13572817.966 -22048174.078   5965851.674  0.0006074982  342.7  43.6
+4 sat=20  20604422.732  -7705492.328 -15030213.307  0.0004660833  123.2  55.1
+4 sat=21   4112932.052 -21351743.929 -14374656.402 -0.0005150185  240.5  51.5
+4 sat=25  19568952.813 -17561977.708   2630103.297 -0.0003606836   12.7  53.4
+4 sat=26  -3190194.300 -17088242.662 -20058205.246 -0.0005165819  223.3  28.5
+4 sat=29  18129968.403  -7033115.700 -18075605.208  0.0006167453  139.6  50.7
+4 y=
+        -3.878        -3.736        -3.796        -1.487         4.686        -4.856
+        -2.756        -4.679        -4.832        -0.053         9.457        -4.873
+        -3.234        -3.059        -3.842         0.155         3.551        -4.167
+        -3.834        -3.679        -4.662         2.735         7.271        -4.047
+3 ddres   : dt=0.0 nx=445 ns=6
+4 sat= 20- 18 L1 v=       -0.110 R=0.000045 0.000056
+4 sat= 20- 21 L1 v=        0.480 R=0.000045 0.000047
+4 sat= 20- 25 L1 v=        0.190 R=0.000045 0.000046
+4 sat= 20- 26 L1 v=       -1.607 R=0.000045 0.000097
+4 sat= 20- 29 L1 v=       -0.284 R=0.000045 0.000048
+4 sat= 20- 18 L2 v=        0.490 R=0.000045 0.000056
+4 sat= 20- 21 L2 v=        0.720 R=0.000045 0.000047
+4 sat= 20- 25 L2 v=        0.630 R=0.000045 0.000046
+4 sat= 20- 26 L2 v=       -1.887 R=0.000045 0.000097
+4 sat= 20- 29 L2 v=       -0.444 R=0.000045 0.000048
+4 sat= 20- 18 P1 v=       -0.110 R=0.447621 0.559154
+4 sat= 20- 21 P1 v=        0.480 R=0.447621 0.473821
+4 sat= 20- 25 P1 v=        0.190 R=0.447621 0.459153
+4 sat= 20- 26 P1 v=       -1.607 R=0.447621 0.972620
+4 sat= 20- 29 P1 v=       -0.284 R=0.447621 0.480251
+4 sat= 20- 18 P2 v=        0.490 R=0.447621 0.559154
+4 sat= 20- 21 P2 v=        0.720 R=0.447621 0.473821
+4 sat= 20- 25 P2 v=        0.630 R=0.447621 0.459153
+4 sat= 20- 26 P2 v=       -1.887 R=0.447621 0.972620
+4 sat= 20- 29 P2 v=       -0.444 R=0.447621 0.480251
+5 H=
+ -0.3447 -0.7790 -0.0439 -1.0984 -0.1214 -0.3447 -0.7790 -0.0439 -1.0984 -0.1214 -0.3447 -0.7790 -0.0439 -1.0984 -0.1214 -0.3447 -0.7790 -0.0439 -1.0984 -0.1214
+ -0.6548 -0.6598 -0.4699 -0.3975  0.0326 -0.6548 -0.6598 -0.4699 -0.3975  0.0326 -0.6548 -0.6598 -0.4699 -0.3975  0.0326 -0.6548 -0.6598 -0.4699 -0.3975  0.0326
+  0.9812  0.0203  0.8360 -0.1738 -0.1389  0.9812  0.0203  0.8360 -0.1738 -0.1389  0.9812  0.0203  0.8360 -0.1738 -0.1389  0.9812  0.0203  0.8360 -0.1738 -0.1389
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+ -0.1903  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.1903  0.1903  0.1903  0.1903  0.1903  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000 -0.1903  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000 -0.1903  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000 -0.1903  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000 -0.1903  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000 -0.2442  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.2442  0.2442  0.2442  0.2442  0.2442  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000 -0.2442  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000 -0.2442  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000 -0.2442  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000 -0.2442  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
+3 ddcov   : n=4
+5 R=
+ 0.000101 0.000045 0.000045 0.000045 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000045 0.000092 0.000045 0.000045 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000045 0.000045 0.000091 0.000045 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000045 0.000045 0.000045 0.000142 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000045 0.000045 0.000045 0.000045 0.000093 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000101 0.000045 0.000045 0.000045 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000045 0.000092 0.000045 0.000045 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000045 0.000045 0.000091 0.000045 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000045 0.000045 0.000045 0.000142 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000045 0.000045 0.000045 0.000045 0.000093 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.006775 0.447621 0.447621 0.447621 0.447621 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.921442 0.447621 0.447621 0.447621 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.447621 0.906774 0.447621 0.447621 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.447621 0.447621 1.420241 0.447621 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.447621 0.447621 0.447621 0.927872 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.006775 0.447621 0.447621 0.447621 0.447621
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.921442 0.447621 0.447621 0.447621
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.447621 0.906774 0.447621 0.447621
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.447621 0.447621 1.420241 0.447621
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.447621 0.447621 0.447621 0.927872
+4 x(1)=  3964450.0627 -4392493.4238 -2375390.3054
+3 zdres   : n=6
+4 tropmapf: pos=-22.006450  -47.932132  841.3 azel=342.7 43.6
+4 antmodel: azel= 342.7 43.6 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-22.006450  -47.932132  841.3 azel=123.2 55.1
+4 antmodel: azel= 123.2 55.1 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-22.006450  -47.932132  841.3 azel=240.5 51.5
+4 antmodel: azel= 240.5 51.5 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-22.006450  -47.932132  841.3 azel= 12.7 53.4
+4 antmodel: azel=  12.7 53.4 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-22.006450  -47.932132  841.3 azel=223.3 28.5
+4 antmodel: azel= 223.3 28.5 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-22.006450  -47.932132  841.3 azel=139.6 50.7
+4 antmodel: azel= 139.6 50.7 opt=0
+5 antmodel: dant= 0.000  0.000
+4 rr_=3964450.063 -4392493.424 -2375390.305
+4 pos=-22.006449726 -47.932132378 841.312
+4 sat=18  13572817.966 -22048174.078   5965851.674  0.0006074982  342.7  43.6
+4 sat=20  20604422.732  -7705492.328 -15030213.307  0.0004660833  123.2  55.1
+4 sat=21   4112932.052 -21351743.929 -14374656.402 -0.0005150185  240.5  51.5
+4 sat=25  19568952.813 -17561977.708   2630103.297 -0.0003606836   12.7  53.4
+4 sat=26  -3190194.300 -17088242.662 -20058205.246 -0.0005165819  223.3  28.5
+4 sat=29  18129968.403  -7033115.700 -18075605.208  0.0006167453  139.6  50.7
+4 y=
+         1.463         1.495         2.054         4.310         8.290         0.039
+         2.586         0.553         1.019         5.744        13.061         0.022
+         2.107         2.173         2.008         5.953         7.155         0.728
+         1.507         1.553         1.188         8.533        10.875         0.848
+3 ddres   : dt=0.0 nx=445 ns=6
+4 sat= 20- 18 L1 v=       -0.000 R=0.000045 0.000056
+4 sat= 20- 21 L1 v=       -0.000 R=0.000045 0.000047
+4 sat= 20- 25 L1 v=       -0.000 R=0.000045 0.000046
+4 sat= 20- 26 L1 v=       -0.002 R=0.000045 0.000097
+4 sat= 20- 29 L1 v=       -0.000 R=0.000045 0.000048
+4 sat= 20- 18 L2 v=       -0.000 R=0.000045 0.000056
+4 sat= 20- 21 L2 v=       -0.000 R=0.000045 0.000047
+4 sat= 20- 25 L2 v=       -0.000 R=0.000045 0.000046
+4 sat= 20- 26 L2 v=       -0.002 R=0.000045 0.000097
+4 sat= 20- 29 L2 v=       -0.000 R=0.000045 0.000048
+4 sat= 20- 18 P1 v=       -0.220 R=0.447621 0.559154
+4 sat= 20- 21 P1 v=       -0.139 R=0.447621 0.473821
+4 sat= 20- 25 P1 v=       -0.376 R=0.447621 0.459153
+4 sat= 20- 26 P1 v=        0.020 R=0.447621 0.972620
+4 sat= 20- 29 P1 v=        0.053 R=0.447621 0.480251
+4 sat= 20- 18 P2 v=        0.380 R=0.447621 0.559154
+4 sat= 20- 21 P2 v=        0.101 R=0.447621 0.473821
+4 sat= 20- 25 P2 v=        0.064 R=0.447621 0.459153
+4 sat= 20- 26 P2 v=       -0.260 R=0.447621 0.972620
+4 sat= 20- 29 P2 v=       -0.107 R=0.447621 0.480251
+3 ddcov   : n=4
+5 R=
+ 0.000101 0.000045 0.000045 0.000045 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000045 0.000092 0.000045 0.000045 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000045 0.000045 0.000091 0.000045 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000045 0.000045 0.000045 0.000142 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000045 0.000045 0.000045 0.000045 0.000093 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000101 0.000045 0.000045 0.000045 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000045 0.000092 0.000045 0.000045 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000045 0.000045 0.000091 0.000045 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000045 0.000045 0.000045 0.000142 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000045 0.000045 0.000045 0.000045 0.000093 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.006775 0.447621 0.447621 0.447621 0.447621 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.921442 0.447621 0.447621 0.447621 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.447621 0.906774 0.447621 0.447621 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.447621 0.447621 1.420242 0.447621 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.447621 0.447621 0.447621 0.927872 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.006775 0.447621 0.447621 0.447621 0.447621
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.921442 0.447621 0.447621 0.447621
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.447621 0.906774 0.447621 0.447621
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.447621 0.447621 1.420242 0.447621
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.447621 0.447621 0.447621 0.927872
+3 valpos  : nv=20 thres=4.0
+3 resamb_LAMBDA : nx=445
+3 ddidx   :
+4 N(1)=    -29.000    -26.000    -33.000    -25.000    -28.000      2.000     -7.000     -4.000     21.000     -0.000
+4 N(2)=    -29.000    -31.000    -33.000    -26.000    -28.000      2.000    -11.000     -4.000     20.000     -0.000
+3 resamb : validation ok (nb=10 ratio=6.24 s=4.19/26.10)
+3 restamb :
+3 zdres   : n=6
+4 tropmapf: pos=-22.006451  -47.932132  840.9 azel=342.7 43.6
+4 antmodel: azel= 342.7 43.6 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-22.006451  -47.932132  840.9 azel=123.2 55.1
+4 antmodel: azel= 123.2 55.1 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-22.006451  -47.932132  840.9 azel=240.5 51.5
+4 antmodel: azel= 240.5 51.5 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-22.006451  -47.932132  840.9 azel= 12.7 53.4
+4 antmodel: azel=  12.7 53.4 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-22.006451  -47.932132  840.9 azel=223.3 28.5
+4 antmodel: azel= 223.3 28.5 opt=0
+5 antmodel: dant= 0.000  0.000
+4 tropmapf: pos=-22.006451  -47.932132  840.9 azel=139.6 50.7
+4 antmodel: azel= 139.6 50.7 opt=0
+5 antmodel: dant= 0.000  0.000
+4 rr_=3964449.850 -4392493.106 -2375390.246
+4 pos=-22.006450511 -47.932131845 840.938
+4 sat=18  13572817.966 -22048174.078   5965851.674  0.0006074982  342.7  43.6
+4 sat=20  20604422.732  -7705492.328 -15030213.307  0.0004660833  123.2  55.1
+4 sat=21   4112932.052 -21351743.929 -14374656.402 -0.0005150185  240.5  51.5
+4 sat=25  19568952.813 -17561977.708   2630103.297 -0.0003606836   12.7  53.4
+4 sat=26  -3190194.300 -17088242.662 -20058205.246 -0.0005165819  223.3  28.5
+4 sat=29  18129968.403  -7033115.700 -18075605.208  0.0006167453  139.6  50.7
+4 y=
+         1.134         1.242         1.759         3.967         8.134        -0.186
+         2.256         0.300         0.723         5.401        12.905        -0.203
+         1.778         1.920         1.712         5.609         6.999         0.503
+         1.178         1.300         0.892         8.189        10.719         0.623
+3 ddres   : dt=0.0 nx=445 ns=6
+4 sat= 20- 18 L1 v=       -0.008 R=0.000045 0.000056
+4 sat= 20- 21 L1 v=       -0.005 R=0.000045 0.000047
+4 sat= 20- 25 L1 v=       -0.014 R=0.000045 0.000046
+4 sat= 20- 26 L1 v=       -0.007 R=0.000045 0.000097
+4 sat= 20- 29 L1 v=       -0.013 R=0.000045 0.000048
+4 sat= 20- 18 L2 v=        0.006 R=0.000045 0.000056
+4 sat= 20- 21 L2 v=       -0.003 R=0.000045 0.000047
+4 sat= 20- 25 L2 v=       -0.001 R=0.000045 0.000046
+4 sat= 20- 26 L2 v=       -0.005 R=0.000045 0.000097
+4 sat= 20- 29 L2 v=       -0.001 R=0.000045 0.000048
+4 sat= 20- 18 P1 v=       -0.143 R=0.447621 0.559154
+4 sat= 20- 21 P1 v=       -0.097 R=0.447621 0.473821
+4 sat= 20- 25 P1 v=       -0.285 R=0.447621 0.459153
+4 sat= 20- 26 P1 v=       -0.077 R=0.447621 0.972620
+4 sat= 20- 29 P1 v=        0.025 R=0.447621 0.480251
+4 sat= 20- 18 P2 v=        0.457 R=0.447621 0.559154
+4 sat= 20- 21 P2 v=        0.143 R=0.447621 0.473821
+4 sat= 20- 25 P2 v=        0.155 R=0.447621 0.459153
+4 sat= 20- 26 P2 v=       -0.357 R=0.447621 0.972620
+4 sat= 20- 29 P2 v=       -0.135 R=0.447621 0.480251
+3 ddcov   : n=4
+5 R=
+ 0.000101 0.000045 0.000045 0.000045 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000045 0.000092 0.000045 0.000045 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000045 0.000045 0.000091 0.000045 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000045 0.000045 0.000045 0.000142 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000045 0.000045 0.000045 0.000045 0.000093 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000101 0.000045 0.000045 0.000045 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000045 0.000092 0.000045 0.000045 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000045 0.000045 0.000091 0.000045 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000045 0.000045 0.000045 0.000142 0.000045 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000045 0.000045 0.000045 0.000045 0.000093 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.006775 0.447621 0.447621 0.447621 0.447621 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.921442 0.447621 0.447621 0.447621 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.447621 0.906774 0.447621 0.447621 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.447621 0.447621 1.420242 0.447621 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.447621 0.447621 0.447621 0.927872 0.000000 0.000000 0.000000 0.000000 0.000000
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.006775 0.447621 0.447621 0.447621 0.447621
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.921442 0.447621 0.447621 0.447621
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.447621 0.906774 0.447621 0.447621
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.447621 0.447621 1.420242 0.447621
+ 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.447621 0.447621 0.447621 0.447621 0.927872
+3 valpos  : nv=20 thres=4.0
+3 outsolstat:
+3 outsol  :
+3 outsols :
+3 outecef:
+3 infunc  : revs=0 iobsu=6 iobsr=6 isbs=0
+3 rtkfree :
+3 freeobsnav:
+3 freepreceph:
+3 free_rtcm:
+3 closeses:
+3 closegoid:
+3 rtkclosestat:
