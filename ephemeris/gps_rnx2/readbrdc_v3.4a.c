@@ -107,7 +107,7 @@ int eph2pos(GPS_ephemeris *ephs, int prn, double t) {
     double A = eph->sqrtA * eph->sqrtA;
 
     // Correct for week crossover
-    if (tk > 302400.0)       { tk -= 604800.0; }
+    if      (tk >  302400.0) { tk -= 604800.0; }
     else if (tk < -302400.0) { tk += 604800.0; }
 
     double n0 = sqrt(MU/A)/A;
