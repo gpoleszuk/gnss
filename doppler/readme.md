@@ -1,5 +1,24 @@
+#### Dependencies:
+```bash
+# apt install python3-ephem
+# apt install python3
+```
+#### Before to run:
+- [ ] update the interested position in the source code lines 60 and 61;
+- [ ] update the TLE file gps-ops.txt in the same folder. Please, see detailed instructions in the header of the Python script.
+- [ ] remember: very old (about 1 year) TLE cannot generate good results (different and/or new satellites, etc.). Please, download updated TLE files from https://celestrak.org/NORAD/elements
+
+#### How to run:
+```bash
+$ python3 Doppler_clean.py "2025-04-11 19:20:00.00000" 
+```
+
+<details>
+
+  <summary>Command line and output sample</summary>
+
 ```txt
-python3 Doppler_clean.py "2025-04-11 19:20:00.00000" 
+$ python3 Doppler_clean.py "2025-04-11 19:20:00.00000" 
 /home/psr/bin/orbit/Doppler_clean.py:66: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   utcdate = datetime.datetime.utcnow()
 PC UTC Time:  2025-04-11 07:32:12.399
@@ -38,3 +57,18 @@ prn      doppler    distance    azimuth  elevation  flag
  31    718.58889    27356496    27.8054   -16.0925    
  32  -2476.36169    30498864   348.7854   -42.6893
  ```
+
+</details>
+
+ToDo:
+- [ ] Document the output flag (it means visible in the provided site position)
+- [ ] Solve deprecated synthax due Python 3 update
+- [ ] Print detailed information in the output header
+- [ ] Include information about rise or set for each satellite
+- [X] Calculate information for any satellites (include extra infos in TLE file)
+- [ ] Clean code and more detailed documentation
+
+#### Acknowledgment
+- Dr. T. S. Kelso: for provide and mantain the TLE service/website provider
+- Brandon Rhodes: (https://pypi.org/user/brandonrhodes) ephem developer and mantainer
+- Andrew Holme: (http://www.aholme.co.uk) [original](http://www.aholme.co.uk/GPS/SRC/2011/Python/Doppler.py) Python script developer
